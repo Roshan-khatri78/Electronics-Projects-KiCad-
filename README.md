@@ -1,62 +1,103 @@
 # KiCad Projects Portfolio
 
-A collection of my **KiCad-based electronics projects**, including schematics, PCB layouts, and design experiments created throughout my learning journey in electronics engineering.
+A growing collection of electronics projects designed in KiCad — including schematics, PCB layouts, and Gerber files. Built as part of my hands-on learning journey in electronics engineering and PCB design.
 
-## About This Repository
+---
 
-This repository serves as a portfolio of the projects I have designed using **KiCad**. The projects range from simple circuits to more advanced designs as I continue to expand my knowledge and practical skills in:
+## About
 
-* PCB Design
-* Schematic Capture
-* Component Selection
-* Circuit Analysis
-* Design for Manufacturability (DFM)
-* Electronics Prototyping
+These projects range from beginner circuits to progressively complex PCB designs. Each project reflects real learning — including mistakes, revisions, and improvements over time. I add new projects regularly as I continue to grow.
 
-## Important Note
+**Skills practiced:**
+- Schematic capture & symbol assignment
+- PCB layout & trace routing
+- Footprint selection & custom footprint creation
+- Copper pours, DRC, and design rules
+- Gerber file export for fabrication
+- 3D model linking & visualization
 
-> **These projects represent my learning process.**
->
-> Some designs may contain mistakes, inefficiencies, or areas that could be improved. Rather than hiding these imperfections, I choose to document my progress openly. Each project reflects what I knew at that stage of my development, and I continuously strive to learn, improve, and apply better engineering practices.
+---
+
+## Projects
+
+### 1. 1-Channel Relay Driver
+> `1channelrelay/`
+
+A single-channel relay driver PCB using an NPN transistor (MMBT2222A) to switch a Fujitsu FTR-LYCA005x relay from a microcontroller signal. Includes a flyback diode for back-EMF protection and a decoupling capacitor. All SMD components with a GND copper pour.
+
+**Key components:** MMBT2222A, FTR-LYCA005x relay, 1N4148 flyback diode  
+**Concepts:** NPN switching, flyback protection, SMD layout, copper pour
+
+---
+
+### 2. Battery Desulfator Circuit
+> `Battery Desulfator circuit/`
+
+An NE555-based pulse generator circuit designed to desulfate lead-acid batteries by sending high-frequency pulses to break down lead sulfate crystals on battery plates.
+
+**Key components:** NE555 timer IC  
+**Concepts:** 555 astable mode, pulse generation, battery maintenance circuits
+
+---
+
+### 3. 3V to 40V DC Booster
+> `3v to 40v DC booster/`
+
+A DC-DC boost converter PCB that steps up voltage from 3V to up to 40V. Designed for applications requiring higher voltages from low-voltage power supplies.
+
+**Concepts:** Boost converter topology, inductor selection, PCB layout for power electronics
+
+---
+
+### 4. Induction Heater
+> `inductionheater/`
+
+An induction heater circuit PCB. Uses high-frequency switching to generate an alternating magnetic field in a work coil, inducing eddy currents in conductive materials to produce heat.
+
+**Concepts:** High-frequency switching, resonant circuits, power PCB layout
+
+---
 
 ## Repository Structure
 
 ```
-KiCad_Projects/
-├── Project_1/
-│   ├── Schematics/
-│   ├── PCB_Layout/
-│   ├── Gerber_Files/
-│   └── README.md
-├── Project_2/
-│   ├── Schematics/
-│   ├── PCB_Layout/
-│   ├── Gerber_Files/
-│   └── README.md
-└── ...
+Electronics-Projects-KiCad-/
+├── 1channelrelay/
+│   ├── *.kicad_sch
+│   ├── *.kicad_pcb
+│   └── Gerber/
+├── Battery Desulfator circuit/
+│   ├── *.kicad_sch
+│   ├── *.kicad_pcb
+│   └── Gerber/
+├── 3v to 40v DC booster/
+│   ├── *.kicad_sch
+│   ├── *.kicad_pcb
+│   └── Gerber/
+├── inductionheater/
+│   ├── *.kicad_sch
+│   ├── *.kicad_pcb
+│   └── Gerber/
+└── README.md
 ```
-
-## Tools Used
-
-* **KiCad**
-* Datasheets and manufacturer documentation
-* Basic simulation and verification methods where applicable
-
-## Goals
-
-* Build a strong foundation in PCB design.
-* Develop practical electronics engineering skills.
-* Document my growth through real projects.
-* Learn from mistakes and continuously improve.
-
-## Feedback
-
-Constructive feedback, suggestions, and discussions are always welcome. If you notice potential improvements in any design, feel free to open an issue or share your thoughts.
-
-## License
-
-Unless stated otherwise, the contents of this repository are shared for **educational and portfolio purposes**.
 
 ---
 
-*"Every design is a learning opportunity. Progress matters more than perfection."*
+## Tools Used
+
+- [KiCad EDA](https://www.kicad.org/) (v7/v8)
+- Manufacturer datasheets for component selection
+- KiCad 3D viewer for visual inspection
+
+---
+
+## Note on Quality
+
+These projects document my learning process openly. Some designs may have imperfections or areas for improvement — that's intentional. I revisit and improve designs as my knowledge grows rather than hiding earlier work.
+
+---
+
+## License
+
+Unless otherwise stated, all projects in this repository are shared for educational and portfolio purposes.  
+Feel free to open an issue or start a discussion if you have suggestions or feedback.
