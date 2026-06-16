@@ -1,11 +1,9 @@
 # KiCad Projects Portfolio
-
 A growing collection of electronics projects designed in KiCad — including schematics, PCB layouts, and Gerber files. Built as part of my hands-on learning journey in electronics engineering and PCB design.
 
 ---
 
 ## About
-
 These projects range from beginner circuits to progressively complex PCB designs. Each project reflects real learning — including mistakes, revisions, and improvements over time. I add new projects regularly as I continue to grow.
 
 **Skills practiced:**
@@ -33,10 +31,10 @@ A single-channel relay driver PCB using an NPN transistor (MMBT2222A) to switch 
 ### 2. Battery Desulfator Circuit
 > `Battery Desulfator circuit/`
 
-An NE555-based pulse generator circuit designed to desulfate lead-acid batteries by sending high-frequency pulses to break down lead sulfate crystals on battery plates.
+An NE555-based pulse generator circuit designed to desulfate lead-acid batteries by sending high-frequency pulses to break down lead sulfate crystals on battery plates. Uses the DISCH pin (pin 7) to drive an IRF244V MOSFET and a flyback inductor (L1).
 
-**Key components:** NE555 timer IC  
-**Concepts:** 555 astable mode, pulse generation, battery maintenance circuits
+**Key components:** NE555 timer IC, IRF244V MOSFET  
+**Concepts:** 555 astable mode, pulse generation, MOSFET gate drive, battery maintenance circuits
 
 ---
 
@@ -58,46 +56,23 @@ An induction heater circuit PCB. Uses high-frequency switching to generate an al
 
 ---
 
+### 5. 60W SMPS
+> `60w smps/`
+
+A 60-watt Switch-Mode Power Supply (SMPS) PCB design. SMPS circuits offer high efficiency compared to linear regulators by using high-frequency switching to regulate output voltage.
+
+**Concepts:** Switching power supply topology, high-frequency PCB layout, power conversion, isolation
+
+---
+
+### 6. Mini Inverter
+> `mini inverter/`
+
+A mini inverter circuit using IR2153 gate drive circuitry to convert DC to AC. The IR2153 provides high-side and low-side gate drive signals for a half-bridge or full-bridge MOSFET configuration.
+
+**Key components:** IR2153 gate driver  
+**Concepts:** DC-AC inversion, gate drive circuits, half-bridge topology, IR2153 oscillator
+
+---
+
 ## Repository Structure
-
-```
-Electronics-Projects-KiCad-/
-├── 1channelrelay/
-│   ├── *.kicad_sch
-│   ├── *.kicad_pcb
-│   └── Gerber/
-├── Battery Desulfator circuit/
-│   ├── *.kicad_sch
-│   ├── *.kicad_pcb
-│   └── Gerber/
-├── 3v to 40v DC booster/
-│   ├── *.kicad_sch
-│   ├── *.kicad_pcb
-│   └── Gerber/
-├── inductionheater/
-│   ├── *.kicad_sch
-│   ├── *.kicad_pcb
-│   └── Gerber/
-└── README.md
-```
-
----
-
-## Tools Used
-
-- [KiCad EDA](https://www.kicad.org/) (v7/v8)
-- Manufacturer datasheets for component selection
-- KiCad 3D viewer for visual inspection
-
----
-
-## Note on Quality
-
-These projects document my learning process openly. Some designs may have imperfections or areas for improvement — that's intentional. I revisit and improve designs as my knowledge grows rather than hiding earlier work.
-
----
-
-## License
-
-Unless otherwise stated, all projects in this repository are shared for educational and portfolio purposes.  
-Feel free to open an issue or start a discussion if you have suggestions or feedback.
