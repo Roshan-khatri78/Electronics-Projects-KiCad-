@@ -76,3 +76,72 @@ A mini inverter circuit using IR2153 gate drive circuitry to convert DC to AC. T
 ---
 
 ## Repository Structure
+Electronics-Projects-KiCad-/
+
+├── 1channelrelay/
+
+│   ├── *.kicad_sch
+
+│   ├── *.kicad_pcb
+
+│   └── Gerber/
+
+├── Battery Desulfator circuit/
+
+│   ├── *.kicad_sch
+
+│   ├── *.kicad_pcb
+
+│   └── Gerber/
+
+├── 3v to 40v DC booster/
+
+│   ├── *.kicad_sch
+
+│   ├── *.kicad_pcb
+
+│   └── Gerber/
+
+├── inductionheater/
+
+│   ├── *.kicad_sch
+
+│   ├── *.kicad_pcb
+
+│   └── Gerber/
+
+├── 60w smps/
+
+│   ├── *.kicad_sch
+
+│   ├── *.kicad_pcb
+
+│   └── Gerber/
+
+├── mini inverter/
+
+│   ├── *.kicad_sch
+
+│   ├── *.kicad_pcb
+
+│   └── Gerber/
+
+└── README.md
+
+---
+
+## Tools Used
+- [KiCad EDA](https://www.kicad.org/) (v7/v8)
+- Manufacturer datasheets for component selection
+- KiCad 3D viewer for visual inspection
+
+---
+
+## Note on Quality
+These projects document my learning process openly. Some designs may have imperfections or areas for improvement — that's intentional. I revisit and improve designs as my knowledge grows rather than hiding earlier work.
+
+---
+
+## License
+Unless otherwise stated, all projects in this repository are shared for educational and portfolio purposes.  
+Feel free to open an issue or start a discussion if you have suggestions or feedback.
