@@ -1,0 +1,96 @@
+Info: Processing symbol 'C1:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C2:Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C4:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C5:Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A'.
+Info: Processing symbol 'C6:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C7:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C8:Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A'.
+Info: Processing symbol 'C9:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C10:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C11:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C12:Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A'.
+Info: Processing symbol 'C13:Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A'.
+Info: Processing symbol 'C14:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C15:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C16:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C17:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C18:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C19:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C20:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'D1:LED_SMD:LED_0805_2012Metric'.
+Info: Processing symbol 'D2:LED_SMD:LED_0805_2012Metric'.
+Info: Processing symbol 'D3:LED_SMD:LED_0805_2012Metric'.
+Info: Processing symbol 'D4:LED_SMD:LED_0805_2012Metric'.
+Info: Processing symbol 'D5:LED_SMD:LED_0805_2012Metric'.
+Info: Processing symbol 'D6:LED_SMD:LED_0805_2012Metric'.
+Info: Processing symbol 'F1:0ZCH0110AF2E:FUSC3225X100N'.
+Info: Processing symbol 'J1:B2B-XH-A:JST_B2B-XH-A'.
+Info: Processing symbol 'J2:SCNUS-UC4-1243GF-SORTH:SUNTSU_SCNUS-UC4-1243GF-SORTH'.
+Info: Processing symbol 'J3:GSD090012SEU:AMPHENOL_GSD090012SEU'.
+Info: Processing symbol 'U6:Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering'.
+Info: Processing symbol 'J4:Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical'.
+Info: Processing symbol 'J5:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical'.
+Info: Processing symbol 'MK1:CMC-5044PF-A:CUI_CMC-5044PF-A'.
+Info: Processing symbol 'U7:MAX4466EXK:SOT65P210X110-5N'.
+Info: Processing symbol 'R7:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'Q1:TEMT6000X01:TRANS_TEMT6000X01'.
+Info: Processing symbol 'VR1:LM1117MPX-3.3_NOPB:VREG_LM1117MPX-3.3_NOPB'.
+Info: Processing symbol 'Q2:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'Q3:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R18:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R8:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R9:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R10:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R11:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R12:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R13:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R14:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R15:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R16:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R17:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R19:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R20:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R21:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R22:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R23:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R24:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R25:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R26:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R27:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R28:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R29:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R30:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R31:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R32:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'S1:USLPT2819DT2TR:SW_USLPT2819DT2TR'.
+Info: Processing symbol 'S2:USLPT2819DT2TR:SW_USLPT2819DT2TR'.
+Info: Processing symbol 'TP1:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'TP2:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'TP3:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'TP4:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'TP5:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'U1:Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm'.
+Info: Processing symbol 'U2:Package_TO_SOT_SMD:SOT-23-6'.
+Info: Processing symbol 'U3:Package_SO:SOIC-8_5.3x5.3mm_P1.27mm'.
+Info: Processing symbol 'U4:Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm'.
+Info: Processing symbol 'U5:RF_Module:ESP32-C3-WROOM-02'.
+Warning: No net found for component MK1 pad 2 (no pin 2 in symbol).
+Warning: No net found for component Q1 pad 2 (no pin 2 in symbol).
+Warning: No net found for component MK1 pad 1 (no pin 1 in symbol).
+Error: Cannot add J3 (footprint 'GSD090012SEU:AMPHENOL_GSD090012SEU' not found).
+Error: Cannot add S2 (footprint 'USLPT2819DT2TR:SW_USLPT2819DT2TR' not found).
+Error: Cannot add U7 (footprint 'MAX4466EXK:SOT65P210X110-5N' not found).
+Error: Cannot add S1 (footprint 'USLPT2819DT2TR:SW_USLPT2819DT2TR' not found).
+Error: Cannot add VR1 (footprint 'LM1117MPX-3.3_NOPB:VREG_LM1117MPX-3.3_NOPB' not found).
+Error: MK1 pad GND not found in CMC-5044PF-A:CUI_CMC-5044PF-A.
+Error: MK1 pad OUT not found in CMC-5044PF-A:CUI_CMC-5044PF-A.
+
+
+Info: Total warnings: 3, errors: 7.

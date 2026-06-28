@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ARDUINO_PRO_MINI") (type "KiCad") (uri "${KICAD_3D_FILES}/ARDUINO_PRO_MINI") (options "") (descr ""))
+)
