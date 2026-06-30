@@ -1,0 +1,157 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a")
+	(paper "A4")
+	(title_block
+		(title "3-Phase BLDC (Brushless DC) Motor Controller.")
+		(date "2026-06-29")
+		(company "Rudra_khatri")
+	)
+	(lib_symbols)
+	(sheet
+		(at 27.94 41.275)
+		(size 55.245 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 17 1 0.5019607843)
+		)
+		(uuid "726ea257-6068-4852-8b0f-999e520e6be3")
+		(property "Sheetname" "Logic, Control and IO"
+			(at 27.94 40.5634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Logic, Control and IO.kicad_sch"
+			(at 27.94 79.9596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.734 115.57)
+		(size 56.134 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 41 72 255 0.5098039216)
+		)
+		(uuid "b3261bd4-9bd1-45c2-a864-c82a2ea95279")
+		(property "Sheetname" "Power Stage (Inverter)"
+			(at 30.734 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Stage (Inverter).kicad_sch"
+			(at 30.734 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.563 38.227)
+		(size 62.865 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 102 255 46 0.5098039216)
+		)
+		(uuid "c0682c82-79a6-4314-9a2d-92a9a9916730")
+		(property "Sheetname" "Power Input & Telemetry"
+			(at 186.563 37.5154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Input & Telemetry.kicad_sch"
+			(at 186.563 79.4516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

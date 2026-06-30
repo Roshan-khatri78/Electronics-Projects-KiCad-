@@ -1,0 +1,8693 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9b897e24-9afe-4ab5-b716-6d5df8b93ca1")
+	(paper "A4")
+	(title_block
+		(title ": Power Stage (Inverter)")
+		(date "2026-06-29")
+		(company "Rudra_khatri")
+	)
+	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Driver_FET:IR2104"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 1.27 13.335 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IR2104"
+				(at 1.27 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/ir2104.pdf?fileId=5546d462533600a4015355c7c1c31671"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Half-Bridge Driver, 600V, 210/360mA, PDIP-8/SOIC-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Gate Driver"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IR2104_0_1"
+				(rectangle
+					(start -5.08 -10.16)
+					(end 5.08 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "IR2104_1_1"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~{SD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name "LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "HO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 2.54)
+					(name "VB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:2N7000"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7000"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET Logic-Level"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2N7000_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N7000_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:-10V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "-10V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-10V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "-10V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-10V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 162.052 18.034)
+		(end 246.888 63.246)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5d2844ee-fc75-4889-a7c7-6cb706822b11")
+	)
+	(rectangle
+		(start 23.876 17.526)
+		(end 143.764 196.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a0567ad4-ee4c-4d5f-8e9f-d169c2d37124")
+	)
+	(text "Motor_connector"
+		(exclude_from_sim no)
+		(at 169.672 17.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58f951cf-5a8a-4c2d-93d1-0c790fbf46e1")
+	)
+	(text "MOSFET_DRIVERS\n"
+		(exclude_from_sim no)
+		(at 32.004 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb917500-ebdb-4564-a23c-2d95d079f5eb")
+	)
+	(junction
+		(at 89.154 124.714)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05883b4f-4fac-4ce8-a6e7-aa2ada1bb2b9")
+	)
+	(junction
+		(at 101.6 129.794)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c77d495-233f-41fd-bbe9-7f98ca6a73af")
+	)
+	(junction
+		(at 65.532 43.434)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1070bd87-e1e0-4441-b19f-261c0cb2613e")
+	)
+	(junction
+		(at 102.616 51.816)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "137a2cf5-9eeb-4786-9fb0-8dc175693d35")
+	)
+	(junction
+		(at 114.808 51.816)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b5c667b-c3d7-4be0-aa04-ea85332f4217")
+	)
+	(junction
+		(at 102.362 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ebafe4e-83ca-4f39-8ed1-acbde632bc0d")
+	)
+	(junction
+		(at 68.834 46.228)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c0c64c5-e228-416c-a358-e529d03994a2")
+	)
+	(junction
+		(at 77.216 44.704)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30a008b1-af1c-4593-8138-14be606513ec")
+	)
+	(junction
+		(at 82.55 58.928)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33d776e6-84f0-4279-86ab-3841d042600b")
+	)
+	(junction
+		(at 101.6 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cf67073-c85c-49b0-bea5-b37a61a29071")
+	)
+	(junction
+		(at 90.932 51.816)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47d03bbd-1d1a-4125-af7c-580535fa950a")
+	)
+	(junction
+		(at 90.678 156.972)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55ca860b-4328-4c57-973a-0ddecbf730b2")
+	)
+	(junction
+		(at 76.962 162.814)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bb5ee25-4bad-465b-993d-68039a7293b3")
+	)
+	(junction
+		(at 90.678 169.926)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "601fad1b-e8ff-42be-8d45-139316d33ae7")
+	)
+	(junction
+		(at 67.818 103.632)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60669bc8-548a-4a9a-bb36-22931593d1ce")
+	)
+	(junction
+		(at 82.296 177.038)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a35a36f-e646-4fa6-9ada-3ed65fc44f67")
+	)
+	(junction
+		(at 65.786 56.388)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d9153ad-46c9-4080-b3c6-c35ab87c540c")
+	)
+	(junction
+		(at 194.818 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76155aba-2107-4484-ac1a-35be00585112")
+	)
+	(junction
+		(at 90.932 38.862)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "839edd25-fc10-494c-900c-938c3b006b98")
+	)
+	(junction
+		(at 64.516 100.838)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91dcfb08-fa29-44f6-a4ad-d48171b934a0")
+	)
+	(junction
+		(at 90.17 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98cacd21-85f0-4f8e-adad-ad2775eedf3a")
+	)
+	(junction
+		(at 102.616 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bf96be8-7cca-46d1-a3ba-8f7dd68e8514")
+	)
+	(junction
+		(at 65.278 161.544)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fc7c8b7-701f-4fc7-9715-7adfb613cea5")
+	)
+	(junction
+		(at 211.328 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac3d62f0-c4ef-4999-b187-4d8b0ba85361")
+	)
+	(junction
+		(at 51.308 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afb13007-a54f-40d7-8abd-c269bdfcd67d")
+	)
+	(junction
+		(at 68.58 164.338)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8bfd95c-fc93-403c-8d3c-80283f21e8a8")
+	)
+	(junction
+		(at 65.532 174.498)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be7c41bf-2c25-4f03-947b-4f723c2dbe83")
+	)
+	(junction
+		(at 76.2 102.108)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0aec0ab-aeef-45b3-83bf-28e184f33ed2")
+	)
+	(junction
+		(at 64.77 113.792)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c769c50c-f6ac-4f0d-bdc2-189821d9e738")
+	)
+	(junction
+		(at 51.054 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9ff5039-bdc9-4925-86e1-9f7c299f2738")
+	)
+	(junction
+		(at 89.916 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4443c37-d8e3-4769-b789-357b4a78d4d0")
+	)
+	(junction
+		(at 180.34 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9a6b5fe-bad5-4541-affa-818a1e152a55")
+	)
+	(junction
+		(at 89.916 96.266)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de4e8244-0edc-4cfa-88bf-82c0b37e86ee")
+	)
+	(junction
+		(at 89.916 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e05ffb5e-0cd8-4c9f-b0d6-139f5d1a89c9")
+	)
+	(junction
+		(at 50.292 91.694)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6699ab9-7ffd-4be0-af20-394891bb9d9f")
+	)
+	(junction
+		(at 81.534 116.332)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec884f63-62f2-44b0-898a-255d1a0f4d79")
+	)
+	(junction
+		(at 102.362 169.926)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee10525c-238d-40e1-84a7-5e6a34002613")
+	)
+	(junction
+		(at 114.554 169.926)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f227ccdf-2927-47c0-8952-8fa086538006")
+	)
+	(junction
+		(at 113.792 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8dc79f4-2e47-4d41-a28d-4d6a8fb7ae06")
+	)
+	(wire
+		(pts
+			(xy 77.216 44.704) (xy 77.216 46.482)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d59693-8bb6-4994-890b-06c37f13f905")
+	)
+	(wire
+		(pts
+			(xy 102.362 169.926) (xy 114.554 169.926)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022d8e90-017c-4639-a57f-1dbadb92d92f")
+	)
+	(wire
+		(pts
+			(xy 114.808 51.816) (xy 114.808 64.008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02cb0b53-8aa5-4cff-9c74-339167027a38")
+	)
+	(wire
+		(pts
+			(xy 126.238 107.696) (xy 120.904 107.696)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096e3f31-fce2-460c-9625-2f0f148666fd")
+	)
+	(wire
+		(pts
+			(xy 51.054 156.718) (xy 51.054 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e6d50c-ce2c-4d7c-bc9e-0b81945da171")
+	)
+	(wire
+		(pts
+			(xy 90.932 28.448) (xy 90.932 38.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf67984-9edc-493c-a1e0-b22000712b1a")
+	)
+	(wire
+		(pts
+			(xy 211.328 33.02) (xy 202.946 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da09171-1544-4592-8c03-23da9148b19f")
+	)
+	(wire
+		(pts
+			(xy 68.834 46.482) (xy 69.342 46.482)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f14d0ce-7d2b-46ab-a9ba-b509543e2355")
+	)
+	(wire
+		(pts
+			(xy 34.798 172.72) (xy 43.434 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff24450-1d3a-4f40-8f5f-a8bda71f31a0")
+	)
+	(wire
+		(pts
+			(xy 113.792 109.22) (xy 113.792 121.412)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132efc03-cffc-4063-94c0-d952d66e4268")
+	)
+	(wire
+		(pts
+			(xy 51.308 38.608) (xy 51.308 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14594070-0f80-433b-869c-f182b209ac2c")
+	)
+	(wire
+		(pts
+			(xy 121.92 51.308) (xy 129.794 51.308)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ee1c1f-fbdd-48d1-a049-0ea3d8a55bc4")
+	)
+	(wire
+		(pts
+			(xy 192.278 25.654) (xy 167.894 25.654)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1700e2d2-84ba-4a13-8b83-c1e3f0337bb0")
+	)
+	(wire
+		(pts
+			(xy 82.296 175.514) (xy 82.296 177.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fb963c-b3bc-4524-bc54-88446f9424b8")
+	)
+	(wire
+		(pts
+			(xy 113.792 96.266) (xy 89.916 96.266)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf91cde-5a18-4fff-9780-723330fd0445")
+	)
+	(wire
+		(pts
+			(xy 89.916 185.42) (xy 94.742 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1daece48-fb88-44e6-9302-36e780ece1d0")
+	)
+	(wire
+		(pts
+			(xy 194.818 30.48) (xy 200.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbb5e59-2ecf-4770-b523-08072065588c")
+	)
+	(wire
+		(pts
+			(xy 58.674 174.498) (xy 65.532 174.498)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2120f9-39fa-4344-886b-b8e420e1f8b8")
+	)
+	(wire
+		(pts
+			(xy 34.798 53.848) (xy 34.798 54.864)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224596a0-26e9-4091-a326-04acadf70bbe")
+	)
+	(wire
+		(pts
+			(xy 90.678 146.558) (xy 90.678 156.972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b798ce-8fb7-4075-b5bd-de1f127c1624")
+	)
+	(wire
+		(pts
+			(xy 64.516 101.092) (xy 64.516 100.838)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23548221-8a1b-4fd0-80bc-2da2e39abcdd")
+	)
+	(wire
+		(pts
+			(xy 76.962 46.482) (xy 77.216 46.482)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fc863b-5124-4e4b-81f2-2dc1d03f932f")
+	)
+	(wire
+		(pts
+			(xy 64.77 113.792) (xy 81.28 113.792)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2714a870-9bc1-4f13-b101-2e9f1bdfe2ec")
+	)
+	(wire
+		(pts
+			(xy 113.792 189.738) (xy 102.362 189.738)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278944b5-c589-4043-a452-97b1912e5d0d")
+	)
+	(wire
+		(pts
+			(xy 90.932 51.816) (xy 102.616 51.816)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a1a7cd-1d7e-45fb-855b-bfb835990fc7")
+	)
+	(wire
+		(pts
+			(xy 82.296 56.388) (xy 82.296 51.816)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8e2301-80ab-4f2f-9f05-4c16285718d4")
+	)
+	(wire
+		(pts
+			(xy 64.77 105.156) (xy 64.77 100.838)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be34557-98af-4f6e-9b8f-0e0e0550eab0")
+	)
+	(wire
+		(pts
+			(xy 69.596 37.846) (xy 68.834 37.846)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6f883c-bb59-4e8a-9c56-00d6214ac39f")
+	)
+	(wire
+		(pts
+			(xy 180.34 33.02) (xy 185.928 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f194b91-4f4c-4051-91f4-1885b749fb21")
+	)
+	(wire
+		(pts
+			(xy 57.912 113.792) (xy 64.77 113.792)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30821482-c254-4452-ae09-56d207e0bb3b")
+	)
+	(wire
+		(pts
+			(xy 220.726 25.654) (xy 220.726 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309fac07-12fa-4d9e-9ae6-fcda776883b4")
+	)
+	(wire
+		(pts
+			(xy 67.818 95.25) (xy 67.818 103.632)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e042cc-0580-42ba-9c65-6b1ce9a1caf1")
+	)
+	(wire
+		(pts
+			(xy 68.834 37.846) (xy 68.834 46.228)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354eb9f9-15fb-46ce-94fd-af07a2add9c4")
+	)
+	(wire
+		(pts
+			(xy 65.786 56.388) (xy 65.786 55.372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358620f6-1dab-4e54-946c-2ccdf9bd7f39")
+	)
+	(wire
+		(pts
+			(xy 167.894 33.02) (xy 180.34 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360353b1-1e81-4828-a43f-366c688d9b5e")
+	)
+	(wire
+		(pts
+			(xy 65.532 174.498) (xy 65.532 173.482)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370406e0-dc36-4316-ae1d-70cd0e07596d")
+	)
+	(wire
+		(pts
+			(xy 114.808 51.816) (xy 121.92 51.816)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2fc809-9757-4b6c-8f18-2e5c0fd81b09")
+	)
+	(wire
+		(pts
+			(xy 167.894 25.654) (xy 167.894 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a85b270-d9e3-4ebd-965b-2667f64a87be")
+	)
+	(wire
+		(pts
+			(xy 194.818 30.48) (xy 194.818 51.054)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8605a7-183e-49b3-ade3-ec5004837d7e")
+	)
+	(wire
+		(pts
+			(xy 42.418 91.694) (xy 56.896 91.694)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c810db4-c01a-442b-87e8-2ff15fc3227c")
+	)
+	(wire
+		(pts
+			(xy 89.916 107.188) (xy 89.916 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb093d6-1f20-460f-8826-91330d1f00fc")
+	)
+	(wire
+		(pts
+			(xy 81.534 114.808) (xy 81.534 116.332)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4545ad59-c50e-4c93-a16a-55196502054c")
+	)
+	(wire
+		(pts
+			(xy 58.674 161.798) (xy 65.278 161.798)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490f8dc5-941b-478a-9440-7ba66bc8ebe5")
+	)
+	(wire
+		(pts
+			(xy 185.928 33.02) (xy 185.928 50.292)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b66163-1b69-43a8-b477-ba4af8e319b0")
+	)
+	(wire
+		(pts
+			(xy 81.534 116.332) (xy 81.534 124.714)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d33dcb-cb88-456e-b1e8-cc9b795a77c0")
+	)
+	(wire
+		(pts
+			(xy 43.434 34.29) (xy 57.912 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5336fde8-7efd-464f-8789-10423509aacc")
+	)
+	(wire
+		(pts
+			(xy 90.932 49.784) (xy 90.932 51.816)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b6df78-eb3b-47f4-a0bf-235ec7439dc4")
+	)
+	(wire
+		(pts
+			(xy 101.6 129.032) (xy 101.6 129.794)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ca3916-0d87-4d57-9acd-a9430f433ea1")
+	)
+	(wire
+		(pts
+			(xy 68.58 95.25) (xy 67.818 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541201ee-8542-41a8-b91e-eddbe69c6603")
+	)
+	(wire
+		(pts
+			(xy 58.928 43.688) (xy 65.532 43.688)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5466c96c-7c29-4a09-8fdb-eb9a31970a23")
+	)
+	(wire
+		(pts
+			(xy 43.688 53.848) (xy 34.798 53.848)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "546fc0f4-48ef-4b3f-861b-a977261a5dfb")
+	)
+	(wire
+		(pts
+			(xy 43.18 152.4) (xy 57.658 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5722ff02-349a-4883-9ff2-a15be3fbc541")
+	)
+	(wire
+		(pts
+			(xy 76.2 95.25) (xy 76.2 102.108)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581fe75b-0420-4e05-be03-e1c59c2dd332")
+	)
+	(wire
+		(pts
+			(xy 89.154 114.808) (xy 89.154 124.714)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58649026-0d1e-41db-a7ac-aefa5902d899")
+	)
+	(wire
+		(pts
+			(xy 202.946 33.02) (xy 202.946 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a397478-e11a-450d-920c-d698fefc859a")
+	)
+	(wire
+		(pts
+			(xy 90.17 57.404) (xy 90.17 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cace818-c348-4ea7-b514-aabb6e95e32e")
+	)
+	(wire
+		(pts
+			(xy 114.554 169.926) (xy 128.524 169.926)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d267fd3-f3cc-4c26-b8bd-7146fd23a12b")
+	)
+	(wire
+		(pts
+			(xy 51.054 141.732) (xy 51.308 141.732)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd28b7e-9560-4635-ba67-c2cb3e552dc4")
+	)
+	(wire
+		(pts
+			(xy 82.296 51.816) (xy 90.932 51.816)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e556ba7-42fb-4e87-9251-d69f268956f1")
+	)
+	(wire
+		(pts
+			(xy 69.342 155.956) (xy 68.58 155.956)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ab4eeb-f055-4502-af77-df19df52b0b7")
+	)
+	(wire
+		(pts
+			(xy 113.792 121.412) (xy 113.03 121.412)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62714557-cbab-43a5-9a93-9fc29e679da4")
+	)
+	(wire
+		(pts
+			(xy 65.532 165.862) (xy 65.532 161.544)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6433d42e-4a95-4655-bea7-2c17b51fea81")
+	)
+	(wire
+		(pts
+			(xy 65.278 161.798) (xy 65.278 161.544)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e78ed9-92f1-41e3-87ea-b706d1b83b42")
+	)
+	(wire
+		(pts
+			(xy 58.928 46.228) (xy 68.834 46.228)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3caf3d-00b0-498a-9c55-fce174e02e4d")
+	)
+	(wire
+		(pts
+			(xy 102.362 169.926) (xy 102.362 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec78595-2db7-40be-ab38-ca2722431018")
+	)
+	(wire
+		(pts
+			(xy 114.046 71.628) (xy 102.616 71.628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2b6e21-1231-4112-852c-4dc40a653ff0")
+	)
+	(wire
+		(pts
+			(xy 67.818 103.632) (xy 67.818 103.886)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f384b52-00cf-4974-a43c-c28cd30e87f9")
+	)
+	(wire
+		(pts
+			(xy 90.932 38.862) (xy 90.932 39.624)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703b7b6f-666b-4894-bf45-c82cbcb47af8")
+	)
+	(wire
+		(pts
+			(xy 89.916 85.852) (xy 89.916 96.266)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a1b83d-5d69-40f5-825c-5a1d8d078954")
+	)
+	(wire
+		(pts
+			(xy 76.962 162.814) (xy 83.058 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76138ca6-3119-4e18-b896-fc0a7f2ed678")
+	)
+	(wire
+		(pts
+			(xy 113.03 129.032) (xy 101.6 129.032)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d43134-8563-42f3-9ea9-a3eeaeacdef8")
+	)
+	(wire
+		(pts
+			(xy 65.278 161.544) (xy 65.278 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798ab3e4-49c6-4272-8263-3fb8f8353244")
+	)
+	(wire
+		(pts
+			(xy 68.58 164.338) (xy 68.58 164.592)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d61d9d2-ad43-4ed0-8b9c-e5aded227e90")
+	)
+	(wire
+		(pts
+			(xy 194.818 25.654) (xy 194.818 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db5d433-0c3f-4262-be07-bfb686379372")
+	)
+	(wire
+		(pts
+			(xy 114.808 46.482) (xy 114.808 51.816)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3045bb-c080-41d6-9986-fa1a162d0361")
+	)
+	(wire
+		(pts
+			(xy 89.154 124.714) (xy 93.98 124.714)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f33c7db-81bd-43bd-8da4-29abac0dd78d")
+	)
+	(wire
+		(pts
+			(xy 76.962 162.814) (xy 76.962 164.592)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85543e53-385b-48fc-b1ac-117435efade7")
+	)
+	(wire
+		(pts
+			(xy 102.362 189.738) (xy 102.362 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8737e5c1-2cdd-416c-a425-622ebd693f73")
+	)
+	(wire
+		(pts
+			(xy 113.792 109.22) (xy 120.904 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87fc71c6-63dc-447c-93b6-c60cf4a2d499")
+	)
+	(wire
+		(pts
+			(xy 68.58 164.592) (xy 69.088 164.592)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb5ccbf-6a66-429b-9fb5-e53ae82766a8")
+	)
+	(wire
+		(pts
+			(xy 65.786 56.388) (xy 82.296 56.388)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c87f374-bb2d-46cb-b54d-22a0f504aa92")
+	)
+	(wire
+		(pts
+			(xy 101.6 109.22) (xy 101.6 119.634)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa0dc65-17ed-4cdf-bdb8-873c714def39")
+	)
+	(wire
+		(pts
+			(xy 64.77 113.792) (xy 64.77 112.776)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa6d35d-2cc7-40a5-a29f-d0839338a4ef")
+	)
+	(wire
+		(pts
+			(xy 81.28 113.792) (xy 81.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "914ca3fa-d3b2-4e06-a153-af10634d4b64")
+	)
+	(wire
+		(pts
+			(xy 76.708 164.592) (xy 76.962 164.592)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927fb78a-3024-4a1b-b6dc-c52744cb0023")
+	)
+	(wire
+		(pts
+			(xy 90.17 67.31) (xy 94.996 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9394199f-3a0a-4b9b-b081-019e2fcc6b5f")
+	)
+	(wire
+		(pts
+			(xy 58.674 177.038) (xy 82.296 177.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999433e8-380c-4699-9750-91a07b3a8515")
+	)
+	(wire
+		(pts
+			(xy 34.036 111.252) (xy 34.036 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b272ad-0501-4d64-ba71-82fa2ad949d7")
+	)
+	(wire
+		(pts
+			(xy 102.616 51.816) (xy 102.616 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d624291-a92d-4fe8-8d35-3450c3f6c678")
+	)
+	(wire
+		(pts
+			(xy 58.674 164.338) (xy 68.58 164.338)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ddecaf0-752e-4efe-b6c1-c42271f8fa22")
+	)
+	(wire
+		(pts
+			(xy 81.28 109.22) (xy 89.916 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6d41c2-dbc0-4e96-b468-1dfa58980334")
+	)
+	(wire
+		(pts
+			(xy 90.678 167.894) (xy 90.678 169.926)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21b4aab-b431-4d52-a115-561e3f6c7261")
+	)
+	(wire
+		(pts
+			(xy 75.946 103.886) (xy 76.2 103.886)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2678f0c-e367-48a9-a00b-43edc2e7d1b6")
+	)
+	(wire
+		(pts
+			(xy 65.532 43.434) (xy 65.532 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3655f64-ad0b-4c7d-9f3c-5d358badb51b")
+	)
+	(wire
+		(pts
+			(xy 68.58 155.956) (xy 68.58 164.338)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a444bdda-eb0d-4987-aa24-c8e163c218c3")
+	)
+	(wire
+		(pts
+			(xy 58.928 58.928) (xy 82.55 58.928)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a485d144-2bf5-4cb6-bea3-8838bfcf5201")
+	)
+	(wire
+		(pts
+			(xy 43.434 172.72) (xy 43.434 171.958)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d95955-f81f-49c3-b950-839d0fe63b28")
+	)
+	(wire
+		(pts
+			(xy 114.554 164.592) (xy 114.554 169.926)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66b9b17-5290-44ae-94fa-d86887e3b4a8")
+	)
+	(wire
+		(pts
+			(xy 65.786 43.434) (xy 65.532 43.434)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87e4257-75af-4fb9-bf26-a01cd4647af0")
+	)
+	(wire
+		(pts
+			(xy 82.042 174.498) (xy 82.042 169.926)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf5b9b5-b65a-4b14-8129-189b867801f8")
+	)
+	(wire
+		(pts
+			(xy 50.292 96.012) (xy 50.292 91.694)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab72a393-a1a0-4092-adf6-747873da26f6")
+	)
+	(wire
+		(pts
+			(xy 37.338 51.308) (xy 43.688 51.308)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aede9160-f5e0-4f30-80d2-3aee3527cbbc")
+	)
+	(wire
+		(pts
+			(xy 120.904 107.696) (xy 120.904 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b03bfd13-47e8-4aae-ad79-4ef288070b38")
+	)
+	(wire
+		(pts
+			(xy 114.554 182.118) (xy 113.792 182.118)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f0344c-5f88-4393-b979-d20e72cffe22")
+	)
+	(wire
+		(pts
+			(xy 89.916 109.22) (xy 101.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf4bbcb-4514-43bf-af5b-f9fdd64b7e93")
+	)
+	(wire
+		(pts
+			(xy 102.616 71.628) (xy 102.616 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb266f10-bda3-4e85-9611-4ff9c7fd8301")
+	)
+	(wire
+		(pts
+			(xy 57.912 101.092) (xy 64.516 101.092)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb33d495-b590-4725-ae6e-08663a27292b")
+	)
+	(wire
+		(pts
+			(xy 90.678 169.926) (xy 102.362 169.926)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb57f27c-3108-4a5f-a6f7-48cbcb52ae50")
+	)
+	(wire
+		(pts
+			(xy 50.292 91.694) (xy 50.292 81.026)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb768b05-9653-46a8-b792-11d0daafc86e")
+	)
+	(wire
+		(pts
+			(xy 114.808 64.008) (xy 114.046 64.008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1de2c3a-117a-4b81-aff5-9686524c8ea9")
+	)
+	(wire
+		(pts
+			(xy 114.554 156.972) (xy 90.678 156.972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c377e260-06d2-4089-8acb-70bd1362475b")
+	)
+	(wire
+		(pts
+			(xy 51.308 34.29) (xy 51.308 23.622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75ea85b-d172-4996-9478-07236aa7177d")
+	)
+	(wire
+		(pts
+			(xy 64.77 100.838) (xy 64.516 100.838)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c83e4a74-65be-4691-ac3f-aef5dae0e1ab")
+	)
+	(wire
+		(pts
+			(xy 101.6 109.22) (xy 113.792 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb226f75-2d35-4aa2-9cca-9f8866ed334b")
+	)
+	(wire
+		(pts
+			(xy 113.792 103.886) (xy 113.792 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc62849-0531-40f9-85a7-bd535ce9261a")
+	)
+	(wire
+		(pts
+			(xy 65.532 161.544) (xy 65.278 161.544)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceeb4a12-1ad7-4aec-b085-f27035961cea")
+	)
+	(wire
+		(pts
+			(xy 50.292 81.026) (xy 50.546 81.026)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1fd8e3c-2555-496f-9245-127f617617b2")
+	)
+	(wire
+		(pts
+			(xy 197.358 25.654) (xy 220.726 25.654)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2915417-cd5e-483c-be9b-7ad062724604")
+	)
+	(wire
+		(pts
+			(xy 51.308 23.622) (xy 51.562 23.622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30f97dd-7d6c-41b0-a062-979587cd3c77")
+	)
+	(wire
+		(pts
+			(xy 121.92 51.308) (xy 121.92 51.816)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d437b762-062b-4a3d-9dcc-7332a3ba8c14")
+	)
+	(wire
+		(pts
+			(xy 43.434 169.672) (xy 43.434 169.418)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d439dc80-6873-4af2-afb6-0d8cacb912a1")
+	)
+	(wire
+		(pts
+			(xy 82.042 169.926) (xy 90.678 169.926)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d74b224d-727c-4c84-a986-fe82af2341d0")
+	)
+	(wire
+		(pts
+			(xy 82.55 57.404) (xy 82.55 58.928)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d83a9914-0c7b-4884-bbb9-61ecc234bea5")
+	)
+	(wire
+		(pts
+			(xy 42.672 111.252) (xy 34.036 111.252)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94149ed-d8d9-4c15-b730-6f5a6d4a819a")
+	)
+	(wire
+		(pts
+			(xy 57.912 116.332) (xy 81.534 116.332)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94d7256-52df-4e19-9c54-cf05bdd37049")
+	)
+	(wire
+		(pts
+			(xy 65.786 47.752) (xy 65.786 43.434)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9cc7daa-7fe1-422b-846f-db5f814a4c64")
+	)
+	(wire
+		(pts
+			(xy 67.818 103.886) (xy 68.326 103.886)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dafbbeb0-ad40-47fa-8217-e7b4aee2a789")
+	)
+	(wire
+		(pts
+			(xy 82.296 177.038) (xy 82.296 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd46877-6ffa-4b20-b673-58362817b966")
+	)
+	(wire
+		(pts
+			(xy 102.616 51.816) (xy 114.808 51.816)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df431547-5fc5-4d66-a9aa-b32b81f393c8")
+	)
+	(wire
+		(pts
+			(xy 77.216 44.704) (xy 83.312 44.704)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df54cc92-0da6-4ccc-83d4-237c755d4808")
+	)
+	(wire
+		(pts
+			(xy 58.928 56.388) (xy 65.786 56.388)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02afd51-d3ec-4251-9120-b9cc937b0970")
+	)
+	(wire
+		(pts
+			(xy 76.962 155.956) (xy 76.962 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03ecc0f-80fd-4054-9eaf-8ec4ee8e92fb")
+	)
+	(wire
+		(pts
+			(xy 57.912 103.632) (xy 67.818 103.632)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e392f363-4a2b-4088-9377-9661a24e77e0")
+	)
+	(wire
+		(pts
+			(xy 36.576 108.712) (xy 42.672 108.712)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4882dde-99c3-48c3-a230-2eca8869042e")
+	)
+	(wire
+		(pts
+			(xy 65.532 43.688) (xy 65.532 43.434)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53b271a-5487-4a60-b3da-80a4e12185b4")
+	)
+	(wire
+		(pts
+			(xy 114.808 38.862) (xy 90.932 38.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e36b63-333d-42f3-b268-ad82a24786f8")
+	)
+	(wire
+		(pts
+			(xy 76.2 102.108) (xy 76.2 103.886)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ed90f6-00d5-435c-9278-d1342a974468")
+	)
+	(wire
+		(pts
+			(xy 114.554 169.926) (xy 114.554 182.118)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93dc22d-3b5c-4273-a269-cbb13f4fadb2")
+	)
+	(wire
+		(pts
+			(xy 51.054 152.4) (xy 51.054 141.732)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb515860-e13e-415e-9c46-27e482ba44d8")
+	)
+	(wire
+		(pts
+			(xy 65.532 174.498) (xy 82.042 174.498)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec13bb94-4ad1-47d8-a92d-aa0e6c3e673f")
+	)
+	(wire
+		(pts
+			(xy 68.834 46.228) (xy 68.834 46.482)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03cb6b6-9bd9-451a-a762-e217381cb41b")
+	)
+	(wire
+		(pts
+			(xy 76.2 102.108) (xy 82.296 102.108)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1140a0b-2ebd-4304-b572-feddbb7b901f")
+	)
+	(wire
+		(pts
+			(xy 89.916 175.514) (xy 89.916 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46d66e7-bf4b-403c-82df-2653427f0a4f")
+	)
+	(wire
+		(pts
+			(xy 77.216 37.846) (xy 77.216 44.704)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f494faa3-4bbe-4fdf-8c36-3bd99cfc490f")
+	)
+	(wire
+		(pts
+			(xy 64.516 100.838) (xy 64.516 91.694)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ccb2d7-7005-4e6b-8ddf-0d281509bc0d")
+	)
+	(wire
+		(pts
+			(xy 220.726 33.02) (xy 211.328 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72ed66c-5272-450d-b637-689528a5b532")
+	)
+	(wire
+		(pts
+			(xy 36.576 169.672) (xy 43.434 169.672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79848b8-9285-4cf3-b2db-253761619c32")
+	)
+	(wire
+		(pts
+			(xy 90.678 156.972) (xy 90.678 157.734)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa49f686-1d92-410e-a7ce-257fe9ee7ba6")
+	)
+	(wire
+		(pts
+			(xy 89.916 96.266) (xy 89.916 97.028)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0c5c90-c43b-43a3-a22a-a616b1126b78")
+	)
+	(wire
+		(pts
+			(xy 82.55 58.928) (xy 82.55 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff13959e-af40-4c75-99f0-fda5fd2a8b95")
+	)
+	(global_label "V_OUT"
+		(shape input)
+		(at 194.818 51.054 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0082f2df-7844-4260-b3ab-a0ed35c902a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.818 59.724 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "W_IN"
+		(shape input)
+		(at 128.524 169.926 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d24de54-570c-49dd-9f1a-c7c11b2fc3dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.8635 169.926 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "U_OUT"
+		(shape input)
+		(at 185.928 50.292 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "222ec75b-96aa-48f9-b898-0db19809ceb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.928 59.2039 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "U_IN"
+		(shape input)
+		(at 129.794 51.308 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39181197-708f-45b5-bd8e-557b2ab8c1b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0126 51.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IN_V"
+		(shape input)
+		(at 36.576 108.712 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e5f761d-43f3-45d5-a44a-b9cb915bca85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.5993 108.712 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PWM_V"
+		(shape input)
+		(at 34.036 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6344bf7e-1f7b-48e7-9f26-32ce41051595")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.8218 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PWM_U"
+		(shape input)
+		(at 34.798 54.864 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91c928b2-6add-4434-98c0-0ec4de62faf0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.3419 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IN_W"
+		(shape input)
+		(at 36.576 169.672 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "940b49cf-9277-412b-aef5-38e0a86b2d96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.2365 169.672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "V_IN"
+		(shape input)
+		(at 126.238 107.696 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb7e0e29-ec1d-4c6b-97c3-107af5111eee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.2147 107.696 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IN_U"
+		(shape input)
+		(at 37.338 51.308 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd584f82-022b-4899-a092-bbeb3c51f9c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.1194 51.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "W_OUT"
+		(shape input)
+		(at 202.946 50.8 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee524f7e-a738-4b33-9c3f-2e2e4137ca77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.946 59.8328 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PWM_W"
+		(shape input)
+		(at 34.798 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff5cdc77-7644-41ff-86cd-7e2834d9c0d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.221 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 86.36 57.404 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c356829-b7b3-4349-a926-2e38a113b415")
+		(property "Reference" "D8"
+			(at 86.36 51.054 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 86.36 53.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 86.36 57.404 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 86.36 57.404 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 86.36 57.404 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 57.404 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 57.404 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7fba6615-4701-466b-8a58-68a0c9a6dc2e")
+		)
+		(pin "1"
+			(uuid "915a2cff-478c-4d46-94ab-df104abdafc0")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.362 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a53462b-adb2-4723-8fa2-20979a0fe94b")
+		(property "Reference" "#PWR035"
+			(at 102.362 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.362 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.362 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.362 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.362 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7fd029c-a28c-467d-8da4-fa0bb1db1bb9")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 38.608 91.694 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fbbb4dc-aeec-4d9a-a1fc-a5167f91b2e9")
+		(property "Reference" "C18"
+			(at 38.608 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100Nf"
+			(at 38.608 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 42.418 90.7288 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.608 91.694 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 38.608 91.694 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17c627f0-64b5-4558-944a-9a5809d55e31")
+		)
+		(pin "2"
+			(uuid "044f47ba-aede-46f8-bf83-f11912ccaed0")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_FET:IR2104")
+		(at 51.308 51.308 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22bf146b-29ec-4f74-8968-f45c52ec0e72")
+		(property "Reference" "U4"
+			(at 53.4513 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IR2104"
+			(at 53.4513 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 51.308 51.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/ir2104.pdf?fileId=5546d462533600a4015355c7c1c31671"
+			(at 51.308 51.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Half-Bridge Driver, 600V, 210/360mA, PDIP-8/SOIC-8"
+			(at 51.308 51.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f084785-0702-4ca6-8dc2-8c67ea0c43b8")
+		)
+		(pin "5"
+			(uuid "79f11699-5b3b-473b-abaa-8592f1bf45f4")
+		)
+		(pin "6"
+			(uuid "3f8cfdc3-5b91-42e1-8cfc-e6f32272ca4e")
+		)
+		(pin "7"
+			(uuid "29add4bb-b58f-468d-93c5-d382cf86053b")
+		)
+		(pin "8"
+			(uuid "652830e0-c837-4618-befc-7c3e064e110c")
+		)
+		(pin "1"
+			(uuid "d4f1ce47-4c89-4c13-a997-e354b711c90a")
+		)
+		(pin "3"
+			(uuid "357be476-55a3-4678-ba69-02b2dc45f4ea")
+		)
+		(pin "4"
+			(uuid "9228d956-3e54-4af7-8918-8a34603b54a0")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 87.376 102.108 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24b8c319-4436-4cc8-a94f-cac51d55e25a")
+		(property "Reference" "Q3"
+			(at 92.964 100.8379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 92.964 103.3779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 92.456 104.013 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(at 92.456 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(at 87.376 102.108 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "26d8e03a-b7c5-43da-9ea5-b1229f57e302")
+		)
+		(pin "2"
+			(uuid "15869444-7442-4fbd-abbf-213afa56d30d")
+		)
+		(pin "1"
+			(uuid "e6f45562-c5a8-4c06-b67b-c7c808df365c")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 113.792 100.076 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25780b01-2ad7-44c3-b702-1ef66e2719eb")
+		(property "Reference" "D15"
+			(at 116.586 98.8059 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 116.586 101.3459 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 113.792 100.076 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 113.792 100.076 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 113.792 100.076 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 113.792 100.076 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.792 100.076 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "01447d2c-aec8-478f-8683-b27bee31efb5")
+		)
+		(pin "1"
+			(uuid "ddbf9f73-687c-456b-9c04-efa9292c0ed6")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.798 91.694 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "273a5a25-02a3-4786-bb57-2e1d05e88c13")
+		(property "Reference" "#PWR026"
+			(at 34.798 98.044 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.798 96.266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.798 91.694 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.798 91.694 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.798 91.694 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4b29771-b42c-4221-9ccc-617d54f183ee")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.136 103.886 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "311fdb7d-0ad6-49d8-a438-5e487b7be3df")
+		(property "Reference" "R7"
+			(at 72.136 97.536 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 72.136 100.076 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+			(at 72.136 105.664 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.136 103.886 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.136 103.886 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7765e7c8-95a9-4bc6-a81a-e081520c8fad")
+		)
+		(pin "1"
+			(uuid "af9c4d6e-c8fe-4a62-9486-180d3ee1ec2e")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 51.308 64.008 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31786351-5de7-49d4-9412-a127944e39db")
+		(property "Reference" "#PWR024"
+			(at 51.308 70.358 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 51.308 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.308 64.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 51.308 64.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 51.308 64.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b102b4d-7c6f-482c-b8b7-86a145d7786b")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 51.054 182.118 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "323d0dc9-82d0-43ea-be31-28262b1b9fc7")
+		(property "Reference" "#PWR032"
+			(at 51.054 188.468 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 51.054 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.054 182.118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 51.054 182.118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 51.054 182.118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4eb73c7d-c256-412c-83da-03eedee4956f")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 100.076 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b2967b8-b401-4010-b5ff-f90a4c17f6c3")
+		(property "Reference" "Q2"
+			(at 105.664 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 105.664 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 105.156 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(at 105.156 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(at 100.076 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "65030277-9332-4315-80ee-3edb1c135c54")
+		)
+		(pin "2"
+			(uuid "aa5aee6e-b62a-4921-86bc-baec6beba89a")
+		)
+		(pin "1"
+			(uuid "e75bc07e-a68b-42a2-b752-c8b5a0b16da0")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_FET:IR2104")
+		(at 50.292 108.712 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "414031c8-4ed2-4b9f-9468-d9d1e30923cd")
+		(property "Reference" "U5"
+			(at 52.4353 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IR2104"
+			(at 52.4353 95.504 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 50.292 108.712 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/ir2104.pdf?fileId=5546d462533600a4015355c7c1c31671"
+			(at 50.292 108.712 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Half-Bridge Driver, 600V, 210/360mA, PDIP-8/SOIC-8"
+			(at 50.292 108.712 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "825408be-783b-4a1d-afb3-e6e59da3089e")
+		)
+		(pin "5"
+			(uuid "bea3376c-8531-4743-9056-d65f70ccc823")
+		)
+		(pin "6"
+			(uuid "1c7e3ea4-c592-4c19-b529-76886425f096")
+		)
+		(pin "7"
+			(uuid "0ccaf4c7-dd62-4ad5-b282-0e42f6e6a86f")
+		)
+		(pin "8"
+			(uuid "fac88084-e6ff-41c0-90a7-ebe8bf271b0f")
+		)
+		(pin "1"
+			(uuid "9305e193-8fc7-4661-b81f-5322ba307bb9")
+		)
+		(pin "3"
+			(uuid "c51afbdf-a817-49e1-8f27-5f2d00429e8f")
+		)
+		(pin "4"
+			(uuid "d2e700c7-3534-44c2-b2c6-8db41f72f15f")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 194.818 20.574 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43aff2f6-2ebe-4a89-84a6-dc3e6dda5cec")
+		(property "Reference" "J1"
+			(at 199.39 19.3039 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x03"
+			(at 199.39 21.8439 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
+			(at 194.818 20.574 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.818 20.574 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 194.818 20.574 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "469644e2-447c-4798-87bb-827d5d592eef")
+		)
+		(pin "1"
+			(uuid "48b7ce48-e9e6-4f08-95b0-2ed9c3857021")
+		)
+		(pin "2"
+			(uuid "408302e4-0cd3-4e4c-a66b-8b8ebffdbd1e")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-10V")
+		(at 51.562 23.622 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "465482cb-4748-4013-8c6b-25b244a828aa")
+		(property "Reference" "#PWR021"
+			(at 51.562 27.432 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-10V"
+			(at 51.562 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.562 23.622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 51.562 23.622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-10V\""
+			(at 51.562 23.622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3e9258c-e0e5-4d50-8898-8eb5120059fe")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 86.106 175.514 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4899dc35-1e60-4c4e-b932-f46af6961850")
+		(property "Reference" "D18"
+			(at 86.106 169.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 86.106 171.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 86.106 175.514 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 86.106 175.514 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 86.106 175.514 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.106 175.514 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.106 175.514 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2666a5af-1b6b-428b-b053-575bf17bd1f0")
+		)
+		(pin "1"
+			(uuid "ee094646-88ab-43c0-b4f8-35fcb3ba20c4")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.898 164.592 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c139997-d9eb-4c91-8f0b-945086e1b505")
+		(property "Reference" "R17"
+			(at 72.898 158.242 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 72.898 160.782 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 72.898 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.898 164.592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.898 164.592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "59ee8c24-e925-4cc8-864e-20c0a096ba16")
+		)
+		(pin "1"
+			(uuid "3f6bf4ae-80ca-4c1e-bdfc-fe909ad13654")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 90.932 28.448 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55ac73b8-fb0e-4207-a83e-d7c1f471f72e")
+		(property "Reference" "#PWR022"
+			(at 90.932 32.258 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+33V"
+			(at 90.932 24.003 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.932 28.448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.932 28.448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 90.932 28.448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03c49af2-be2b-4e89-8090-7ca24479af61")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.344 124.714 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58c3d995-8335-496e-b19f-99a8aa245a80")
+		(property "Reference" "R8"
+			(at 85.344 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 85.344 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+			(at 85.344 126.492 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.344 124.714 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.344 124.714 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2ae0cd93-d420-4b32-95a6-7723e6fe432f")
+		)
+		(pin "1"
+			(uuid "af5eb146-f1f5-4c4f-b206-f9a7d6035afc")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 39.624 34.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a5cc0eb-f842-44af-8603-d9c3eabc5915")
+		(property "Reference" "C16"
+			(at 39.624 27.686 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100Nf"
+			(at 39.624 30.226 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 43.434 33.3248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.624 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 39.624 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2bf4efc-788d-40f5-a045-6ef76cc0568c")
+		)
+		(pin "2"
+			(uuid "ef085489-eb6a-4354-92cd-aaf07b4d0381")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 99.822 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cd205ae-6199-468e-a651-0c4d6f095eda")
+		(property "Reference" "Q6"
+			(at 105.41 184.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 105.41 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 104.902 187.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(at 104.902 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(at 99.822 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5eb49af9-d20e-4ed4-a6d0-8d589125e3a5")
+		)
+		(pin "2"
+			(uuid "f3547f02-9ae6-4fb7-a862-1ee92116d516")
+		)
+		(pin "1"
+			(uuid "37bc8179-e3dc-4d13-bfa1-15ac9f79ea5a")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 73.152 155.956 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e5b9ae6-2b4b-4478-ad05-ef73fae6bb30")
+		(property "Reference" "D17"
+			(at 73.152 149.606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 73.152 152.146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 73.152 155.956 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 73.152 155.956 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 73.152 155.956 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.152 155.956 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 73.152 155.956 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3486e519-93b2-43ef-9cb6-3b2fbd60905b")
+		)
+		(pin "1"
+			(uuid "d32efe41-0b34-4a23-8c0b-f46103b6ff18")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.292 121.412 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6685e163-99ef-4817-b5d4-04f1c9be704d")
+		(property "Reference" "#PWR027"
+			(at 50.292 127.762 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.292 125.984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.292 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.292 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.292 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d04f929c-309d-4beb-99d6-8754b358b177")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6843bdef-9fb1-4aaf-b6cf-15ae95e40de3")
+		(property "Reference" "#PWR031"
+			(at 35.56 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 156.972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10d914d2-07a7-4b3d-98c7-2d120408f1a5")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 65.532 169.672 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71263054-0d19-47b7-a220-bddb651bd014")
+		(property "Reference" "C21"
+			(at 69.342 168.4019 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Uf"
+			(at 69.342 170.9419 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 66.4972 173.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 65.532 169.672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 65.532 169.672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84269606-35a4-4983-a7b1-2685f274fd41")
+		)
+		(pin "2"
+			(uuid "97474536-1232-474d-b1fb-b63a946a897b")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.814 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b3e0528-b43d-451c-9f76-c2604f46986b")
+		(property "Reference" "#PWR025"
+			(at 35.814 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.814 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.814 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.814 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.814 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b33f55b6-0852-4830-80da-d57a797d1aae")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 90.678 146.558 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c53a18b-5f90-43fb-bfcf-dcae01feebee")
+		(property "Reference" "#PWR034"
+			(at 90.678 150.368 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+33V"
+			(at 90.678 142.113 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.678 146.558 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.678 146.558 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 90.678 146.558 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a940cf5b-3e86-4953-a71c-f4c7e43803d7")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.152 46.482 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82fbd5a6-e561-47b8-9ee2-f707ecfb06d7")
+		(property "Reference" "R5"
+			(at 73.152 40.132 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 73.152 42.672 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+			(at 73.152 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.152 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.152 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eeabb040-7333-4723-aab2-41ab38b3aae2")
+		)
+		(pin "1"
+			(uuid "bbf187f9-bccd-4675-a99d-66527285e8bc")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 60.706 91.694 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85d5e1fb-8b2c-4b1e-aa78-db1b4fb2d3d7")
+		(property "Reference" "D11"
+			(at 60.706 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 60.706 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 60.706 91.694 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 60.706 91.694 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 60.706 91.694 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 60.706 91.694 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.706 91.694 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bb7a504e-61d4-4c74-a3a1-f9241a5ac9eb")
+		)
+		(pin "1"
+			(uuid "e42a37f2-6818-4cfb-b691-15a96a7e7979")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 65.786 51.562 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a296cb7-6d16-4697-bc2b-57194f3799b0")
+		(property "Reference" "C17"
+			(at 69.596 50.2919 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Uf"
+			(at 69.596 52.8319 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 66.7512 55.372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 65.786 51.562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 65.786 51.562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "efbedd04-f26b-4c77-a435-c3f136401991")
+		)
+		(pin "2"
+			(uuid "fd820a7b-d333-4efb-9b8b-ea1f4dcc4413")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.106 185.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8aca18c0-7a81-4b59-a538-9240ef81da76")
+		(property "Reference" "R18"
+			(at 86.106 178.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 86.106 181.356 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 86.106 187.198 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.106 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.106 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a0f858ff-13dc-4d0f-9f62-f15c948dcdf4")
+		)
+		(pin "1"
+			(uuid "3cff723c-aa6c-4ea2-8ded-fa35e433ede5")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-10V")
+		(at 51.308 141.732 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f9669e1-0349-4024-9164-d8cf070ee0c6")
+		(property "Reference" "#PWR033"
+			(at 51.308 145.542 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-10V"
+			(at 51.308 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.308 141.732 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 51.308 141.732 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-10V\""
+			(at 51.308 141.732 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d93df11d-f63d-46c7-8633-05ed331281e5")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 114.808 42.672 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fd7137d-cf2d-4ae3-965d-44e3cc4de137")
+		(property "Reference" "D9"
+			(at 117.602 41.4019 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 117.602 43.9419 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 114.808 42.672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 114.808 42.672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 114.808 42.672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.808 42.672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.808 42.672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7656dc7f-54a0-4290-a1d9-e856c1cdf277")
+		)
+		(pin "1"
+			(uuid "08f36dcf-72ce-401d-a391-d526175454c3")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 108.966 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91eb5a9e-9a4a-4f0c-a035-7aa531c91c59")
+		(property "Reference" "C19"
+			(at 68.58 107.6959 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Uf"
+			(at 68.58 110.2359 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 65.7352 112.776 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 108.966 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 108.966 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c484490-9351-481f-b0ff-18679c541c81")
+		)
+		(pin "2"
+			(uuid "0850bcd3-752a-47d2-a413-4860206e78ce")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 129.794 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a115d49-d0c1-434b-97fb-61b23afa1061")
+		(property "Reference" "#PWR030"
+			(at 101.6 136.144 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 134.874 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 129.794 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 129.794 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 129.794 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07fd8266-a3d1-4404-80b4-e453a135bb1d")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 180.34 33.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bc18a54-e224-437a-8468-66c9e885e223")
+		(property "Reference" "#FLG01"
+			(at 180.34 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 180.34 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 180.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a2c818a-266a-4bfc-8a6a-5943efeedabd")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 99.06 124.714 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9efbd848-155e-4f6a-8c2b-611665acc058")
+		(property "Reference" "Q4"
+			(at 104.648 123.4439 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 104.648 125.9839 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 104.14 126.619 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(at 104.14 128.524 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(at 99.06 124.714 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "64d08de0-c017-4873-8bf4-dd4d28ef58c6")
+		)
+		(pin "2"
+			(uuid "ff33f965-b99b-48eb-8e38-a7df39ba7b5c")
+		)
+		(pin "1"
+			(uuid "c72efc07-53cc-480d-9497-4caf79392d21")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 85.344 114.808 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a04e8cd1-8eeb-4714-9be8-cf07194c5cad")
+		(property "Reference" "D13"
+			(at 85.344 108.458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 85.344 110.998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 85.344 114.808 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 85.344 114.808 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 85.344 114.808 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 85.344 114.808 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 85.344 114.808 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "49f6e626-f9c6-4b0e-92a0-4570cb3a54d8")
+		)
+		(pin "1"
+			(uuid "1388c1ff-81a1-48af-9bd5-7a4cd7b0e136")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 72.39 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a241ea10-ee38-4619-af30-d1abd3c4d5c6")
+		(property "Reference" "D12"
+			(at 72.39 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 72.39 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 72.39 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 72.39 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 72.39 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 72.39 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 72.39 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "95126119-037c-4732-b295-641c1d7bde69")
+		)
+		(pin "1"
+			(uuid "bc325bed-0294-4f71-b249-ab279e93f55a")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 61.722 34.29 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2fae9dc-4f49-40fd-8e76-80d35f18f262")
+		(property "Reference" "D6"
+			(at 61.722 27.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 61.722 30.226 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 61.722 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 61.722 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 61.722 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 61.722 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 61.722 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b53e539c-a91f-4659-afd1-194ed517ac5c")
+		)
+		(pin "1"
+			(uuid "cabab35c-eec8-410c-81a3-2ea915fbbb75")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 114.554 160.782 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa006ac5-7aa0-4f58-81c5-fba40641a645")
+		(property "Reference" "D20"
+			(at 117.348 159.5119 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 117.348 162.0519 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 114.554 160.782 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 114.554 160.782 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 114.554 160.782 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.554 160.782 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.554 160.782 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a51f7ddc-6f08-4d44-91b0-3f245496d246")
+		)
+		(pin "1"
+			(uuid "634ca47f-9398-4769-8dc5-538053fd1101")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.616 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aba66e79-956d-4e7f-bce9-09c191d4e6a4")
+		(property "Reference" "#PWR023"
+			(at 102.616 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.616 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.616 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.616 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.616 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20287bee-e67a-4fc6-a503-d24f6fca2cc5")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 113.792 185.928 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ace8a398-5358-4fa3-9122-e80acbb1414a")
+		(property "Reference" "D19"
+			(at 116.332 184.6579 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 116.332 187.1979 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 113.792 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 113.792 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 113.792 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 113.792 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.792 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2869823e-2de2-4052-b999-5c345a4c78f7")
+		)
+		(pin "1"
+			(uuid "2b7a8b5e-8d9b-4677-8718-82674203dd73")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 200.66 30.48 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b760fc46-070a-4a99-ab56-f65b05718b71")
+		(property "Reference" "#FLG02"
+			(at 202.565 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 203.835 30.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 200.66 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f4b0ab4-ad9f-48a1-90ec-284712ca22f2")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 88.138 162.814 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8004d17-c4b1-44c0-96c3-8368e205e241")
+		(property "Reference" "Q5"
+			(at 93.726 161.5439 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 93.726 164.0839 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 93.218 164.719 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(at 93.218 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(at 88.138 162.814 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "30498adf-4387-4468-8cdb-496c555f058e")
+		)
+		(pin "2"
+			(uuid "e894436c-f8ec-4896-9810-8231efe0695a")
+		)
+		(pin "1"
+			(uuid "8a8249fe-f281-4cc6-b93b-1eb24b4392bd")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 39.37 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "babafe27-2f7e-4bae-92be-15e6784d95fa")
+		(property "Reference" "C20"
+			(at 39.37 145.796 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100Nf"
+			(at 39.37 148.336 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 43.18 151.4348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 39.37 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f44a671-6e1f-4a57-9adf-d52986d3eb9c")
+		)
+		(pin "2"
+			(uuid "de6a77cc-16f2-41f9-af20-1353d0ca2a83")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbac8c92-ea4d-4b25-9bbb-cd15abe96da8")
+		(property "Reference" "R6"
+			(at 86.36 60.706 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 86.36 63.246 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+			(at 86.36 69.088 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "018ea592-7d78-46ed-ae1c-b362d8785df7")
+		)
+		(pin "1"
+			(uuid "9980df7c-a1c0-4909-9052-904c981dc339")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-10V")
+		(at 50.546 81.026 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfe9d827-42ca-461c-a83c-dd61043752f2")
+		(property "Reference" "#PWR028"
+			(at 50.546 84.836 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-10V"
+			(at 50.546 76.454 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.546 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.546 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-10V\""
+			(at 50.546 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc22f806-d480-42c2-a432-b1fa0d3d3a53")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 73.406 37.846 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cffd62d6-c0d3-4d71-8155-e83fb6fab26b")
+		(property "Reference" "D7"
+			(at 73.406 31.496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 73.406 34.036 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 73.406 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 73.406 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 73.406 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.406 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 73.406 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "27c68b17-eed9-4379-b727-42fdb099d134")
+		)
+		(pin "1"
+			(uuid "178107bb-c6b8-4f1c-9f14-3057c3ddd90a")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 61.468 152.4 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6632b69-fb92-47c7-a5c5-cc7757b1f2f7")
+		(property "Reference" "D16"
+			(at 61.468 145.796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 61.468 148.336 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 61.468 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 61.468 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 61.468 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 61.468 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 61.468 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20b6111f-302b-47b4-8d37-89f1f9ea218e")
+		)
+		(pin "1"
+			(uuid "91b29c20-0992-468d-9e04-b365339a7eba")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 113.03 125.222 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc873fbd-93c5-4fb9-93cc-fc4164633a7c")
+		(property "Reference" "D14"
+			(at 115.57 123.9519 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 115.57 126.4919 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 113.03 125.222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 113.03 125.222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 113.03 125.222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 113.03 125.222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 125.222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2b96c928-caca-4954-89da-2cfa00edc690")
+		)
+		(pin "1"
+			(uuid "724198c5-b12d-4b4f-a9a0-592cdad646c0")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 211.328 33.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e06ceacb-4e44-4e5a-b83a-f45f62996a26")
+		(property "Reference" "#FLG03"
+			(at 211.328 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 211.328 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 211.328 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 211.328 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 211.328 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2254ff00-4e3e-44a9-a115-93010a0b27e7")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 114.046 67.818 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1572548-2129-4889-ab22-bfe1e551a969")
+		(property "Reference" "D10"
+			(at 116.586 66.5479 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 116.586 69.0879 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 114.046 67.818 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 114.046 67.818 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 114.046 67.818 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.046 67.818 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.046 67.818 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "228c4f15-c95c-471a-8d1c-049a56af4877")
+		)
+		(pin "1"
+			(uuid "b20f2c1e-a4ff-47d0-ae97-ce8db37b4b6d")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 88.392 44.704 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f01a57b7-3482-4041-a9db-8f3b77f05c52")
+		(property "Reference" "Q1"
+			(at 93.98 43.4339 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 93.98 45.9739 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 93.472 46.609 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(at 93.472 48.514 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(at 88.392 44.704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "01908029-c911-4f8a-bb96-1c6c5e1adc2e")
+		)
+		(pin "2"
+			(uuid "5f6a435e-30c7-4d2f-9f6e-458bb02a96e4")
+		)
+		(pin "1"
+			(uuid "1fcadf8a-6113-4c8e-bf0c-ac5c6a94a518")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_FET:IR2104")
+		(at 51.054 169.418 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f83baddb-3972-4dbd-af10-158d75c10b4f")
+		(property "Reference" "U6"
+			(at 53.1973 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IR2104"
+			(at 53.1973 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 51.054 169.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/ir2104.pdf?fileId=5546d462533600a4015355c7c1c31671"
+			(at 51.054 169.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Half-Bridge Driver, 600V, 210/360mA, PDIP-8/SOIC-8"
+			(at 51.054 169.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "666354d6-b203-4288-87b8-658907000b3d")
+		)
+		(pin "5"
+			(uuid "5402d57b-e87a-4890-888b-b09343dc9b95")
+		)
+		(pin "6"
+			(uuid "9ac3f253-29fa-4b49-95f2-19874310b3b3")
+		)
+		(pin "7"
+			(uuid "82057851-6619-4fe0-b681-6d697d5923c0")
+		)
+		(pin "8"
+			(uuid "bacc6ff3-88a9-4aa8-8315-be0eb3316b1d")
+		)
+		(pin "1"
+			(uuid "c4335ac0-b7fc-4ad0-a2ad-e25ee7ebed6f")
+		)
+		(pin "3"
+			(uuid "9321f4c4-218c-4c89-941a-70eb9258978d")
+		)
+		(pin "4"
+			(uuid "f047a0b1-bae8-43be-ba7e-ea90e35d82c6")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 89.916 85.852 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa5292db-7108-48e9-9e90-b1f2e9a4b0bc")
+		(property "Reference" "#PWR029"
+			(at 89.916 89.662 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+33V"
+			(at 89.916 81.407 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 89.916 85.852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 89.916 85.852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 89.916 85.852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb03af51-c845-4748-b528-e32e291fdbda")
+		)
+		(instances
+			(project "3-Phase BLDC (Brushless DC) Motor Controller."
+				(path "/fb1a0f9f-e979-4e72-b678-7e42ae6d6f2a/b3261bd4-9bd1-45c2-a864-c82a2ea95279"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
