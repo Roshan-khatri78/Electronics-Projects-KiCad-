@@ -1,0 +1,85 @@
+[
+    {
+        "sheet_name": "Main Sheet",
+        "sheet_path": "C:/Users/rudra/Documents/KiCad/Projects/Arduino R3/Arduino R3.kicad_sch",
+        "paper": {
+            "paper_height": 210,
+            "paper_width": 297
+        },
+        "symbols": [
+            {
+                "reference": "C2",
+                "x_position": 73.406,
+                "y_position": 40.64,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR05",
+                "x_position": 83.312,
+                "y_position": 44.704,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR03",
+                "x_position": 61.976,
+                "y_position": 45.974,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR04",
+                "x_position": 43.434,
+                "y_position": 40.132,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR01",
+                "x_position": 73.406,
+                "y_position": 36.83,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR02",
+                "x_position": 73.406,
+                "y_position": 44.45,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR06",
+                "x_position": 54.356,
+                "y_position": 47.498,
+                "rotation": 0
+            },
+            {
+                "reference": "U2",
+                "x_position": 64.262,
+                "y_position": 36.83,
+                "rotation": 0
+            },
+            {
+                "reference": "C3",
+                "x_position": 83.312,
+                "y_position": 40.894,
+                "rotation": 0
+            },
+            {
+                "reference": "J1",
+                "x_position": 33.274,
+                "y_position": 37.592,
+                "rotation": 0
+            },
+            {
+                "reference": "C1",
+                "x_position": 54.356,
+                "y_position": 43.18,
+                "rotation": 0
+            },
+            {
+                "reference": "D1",
+                "x_position": 48.768,
+                "y_position": 36.322,
+                "rotation": 180
+            }
+        ],
+        "sheet_files": []
+    }
+]
