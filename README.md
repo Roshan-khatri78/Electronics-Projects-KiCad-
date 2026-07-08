@@ -2,7 +2,7 @@
 
 A growing collection of electronics projects designed in **KiCad** — schematics, PCB layouts, and Gerber files. Built as part of my hands-on learning journey in electronics engineering and PCB design.
 
-![KiCad](https://img.shields.io/badge/KiCad-v7%2Fv8-314CB0?style=flat-square)
+![KiCad](https://img.shields.io/badge/KiCad-v10.0-314CB0?style=flat-square)
 ![Projects](https://img.shields.io/badge/Projects-24-brightgreen?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-blue?style=flat-square)
 
@@ -187,7 +187,7 @@ Each project folder contains:
 
 ## 🛠️ Tools Used
 
-- **KiCad EDA** (v7/v8)
+- **KiCad EDA** (v10.0)
 - Manufacturer datasheets for component selection
 - KiCad 3D viewer for visual inspection
 - Custom symbol & footprint libraries
