@@ -1,0 +1,27 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.3*%
+%TF.CreationDate,2026-07-18T14:46:24+05:45*%
+%TF.ProjectId,GSM_GPS Embedded Development Board,47534d5f-4750-4532-9045-6d6265646465,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,NonPlated,1,4,NPTH,Drill*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.3) date 2026-07-18 14:46:24*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentDrill*%
+%ADD10C,2.100000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,H2*%
+X67800000Y-72600000D03*
+%TO.C,H1*%
+X68139250Y-132862500D03*
+%TO.C,H4*%
+X142389250Y-132862500D03*
+%TO.C,H3*%
+X142500000Y-72250000D03*
+M02*
