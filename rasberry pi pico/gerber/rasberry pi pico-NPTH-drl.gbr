@@ -1,0 +1,31 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.3*%
+%TF.CreationDate,2026-08-03T17:03:07+05:45*%
+%TF.ProjectId,rasberry pi pico,72617362-6572-4727-9920-706920706963,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,NonPlated,1,4,NPTH,Drill*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.3) date 2026-08-03 17:03:07*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentDrill*%
+%ADD10C,0.700000*%
+%TD*%
+%TA.AperFunction,ComponentDrill*%
+%ADD11C,2.100000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,SW1*%
+X185850000Y-56625000D03*
+X185850000Y-58425000D03*
+D11*
+%TO.C,REF\u002A\u002A*%
+X184200000Y-47550000D03*
+X185025000Y-94925000D03*
+X196050000Y-94875000D03*
+X196225000Y-47550000D03*
+M02*
