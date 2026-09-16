@@ -1,0 +1,13 @@
+Plotted to 'C:\Users\rudra\Documents\Electronics-Projects-KiCad-\Dual VNH2SP30 Motor Driver Carrier MD03A\Gerber\Dual VNH2SP30 Motor Driver Carrier MD03A-F_Cu.gbr'.
+Plotted to 'C:\Users\rudra\Documents\Electronics-Projects-KiCad-\Dual VNH2SP30 Motor Driver Carrier MD03A\Gerber\Dual VNH2SP30 Motor Driver Carrier MD03A-In1_Cu.gbr'.
+Plotted to 'C:\Users\rudra\Documents\Electronics-Projects-KiCad-\Dual VNH2SP30 Motor Driver Carrier MD03A\Gerber\Dual VNH2SP30 Motor Driver Carrier MD03A-In2_Cu.gbr'.
+Plotted to 'C:\Users\rudra\Documents\Electronics-Projects-KiCad-\Dual VNH2SP30 Motor Driver Carrier MD03A\Gerber\Dual VNH2SP30 Motor Driver Carrier MD03A-B_Cu.gbr'.
+Plotted to 'C:\Users\rudra\Documents\Electronics-Projects-KiCad-\Dual VNH2SP30 Motor Driver Carrier MD03A\Gerber\Dual VNH2SP30 Motor Driver Carrier MD03A-F_Paste.gbr'.
+Plotted to 'C:\Users\rudra\Documents\Electronics-Projects-KiCad-\Dual VNH2SP30 Motor Driver Carrier MD03A\Gerber\Dual VNH2SP30 Motor Driver Carrier MD03A-B_Paste.gbr'.
+Plotted to 'C:\Users\rudra\Documents\Electronics-Projects-KiCad-\Dual VNH2SP30 Motor Driver Carrier MD03A\Gerber\Dual VNH2SP30 Motor Driver Carrier MD03A-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\rudra\Documents\Electronics-Projects-KiCad-\Dual VNH2SP30 Motor Driver Carrier MD03A\Gerber\Dual VNH2SP30 Motor Driver Carrier MD03A-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\rudra\Documents\Electronics-Projects-KiCad-\Dual VNH2SP30 Motor Driver Carrier MD03A\Gerber\Dual VNH2SP30 Motor Driver Carrier MD03A-F_Mask.gbr'.
+Plotted to 'C:\Users\rudra\Documents\Electronics-Projects-KiCad-\Dual VNH2SP30 Motor Driver Carrier MD03A\Gerber\Dual VNH2SP30 Motor Driver Carrier MD03A-B_Mask.gbr'.
+Plotted to 'C:\Users\rudra\Documents\Electronics-Projects-KiCad-\Dual VNH2SP30 Motor Driver Carrier MD03A\Gerber\Dual VNH2SP30 Motor Driver Carrier MD03A-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\rudra\Documents\Electronics-Projects-KiCad-\Dual VNH2SP30 Motor Driver Carrier MD03A\Gerber\Dual VNH2SP30 Motor Driver Carrier MD03A-job.gbrjob'.
+Info: Done.
