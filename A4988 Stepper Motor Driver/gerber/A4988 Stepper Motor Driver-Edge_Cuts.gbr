@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.3*%
+%TF.CreationDate,2026-10-13T19:49:39+05:45*%
+%TF.ProjectId,A4988 Stepper Motor Driver,41343938-3820-4537-9465-70706572204d,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.3) date 2026-10-13 19:49:39*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X95620000Y-53090000D02*
+X113400000Y-53090000D01*
+X113400000Y-88650000D01*
+X95620000Y-88650000D01*
+X95620000Y-53090000D01*
+M02*
