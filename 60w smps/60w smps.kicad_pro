@@ -211,9 +211,10 @@
       ],
       "track_widths": [
         0.0,
-        0.5,
+        0.75,
         1.0,
-        1.5
+        1.75,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -483,7 +484,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -504,7 +505,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "60w smps.kicad_pro",
+    "filename": "60W SMPS.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -652,25 +653,41 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "SMPS",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "60w smps.kicad_sch",
+        "filename": "60W SMPS.kicad_sch",
         "name": "Root",
-        "uuid": "83c69f71-b176-4b8b-8668-30b307827004"
+        "uuid": "72f8e198-a510-41a2-9348-2b296fca9b9a"
       }
     ],
-    "used_designators": "U1,J1-2,#FLG1-2,R1-10,C1-12,T1,#PWR1-8,D1-8,F1,TR1,Q1,L1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
-      "83c69f71-b176-4b8b-8668-30b307827004",
+      "72f8e198-a510-41a2-9348-2b296fca9b9a",
       "Root"
+    ],
+    [
+      "c9aba48e-73bb-4c72-97de-dd205ad7e102",
+      "INPUT & RECTIFICATION"
+    ],
+    [
+      "a218088f-dabf-4ea1-8461-3c485eec0dd1",
+      "PWM CONTROLLER n DRIVER"
+    ],
+    [
+      "12145e03-5396-4512-b9a3-c3d9b6bb5daf",
+      "TRANSFORMER & SECONDARY"
+    ],
+    [
+      "16498c95-2a46-49b5-b0e5-58ae6052b9e5",
+      "OUTPUT FILTERING & REGULATION"
     ]
   ],
   "text_variables": {},
