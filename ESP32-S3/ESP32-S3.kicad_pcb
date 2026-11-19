@@ -12236,9 +12236,9 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "ESP32-s2"
+	(gr_text "ESP32-S3"
 		(at 176.911 48.514 0)
-		(layer "B.SilkS")
+		(layer "B.SilkS" knockout)
 		(uuid "2b50627f-748c-4b4f-ab76-27ee092aa1b2")
 		(effects
 			(font
