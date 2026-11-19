@@ -1,0 +1,1638 @@
+** Drc report for 4G-GPS-Tracker.kicad_pcb **
+** Created on 2026-11-18T22:25:50 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 511 DRC violations **
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2384 mm)
+    Rule: board setup constraints hole; error
+    @(89.8500 mm, 87.7300 mm): Track [/CHIP PU] on Front, length 0.5798 mm
+    @(90.0600 mm, 87.3200 mm): Via [GND] on Front - Back
+[clearance]: Clearance violation ( clearance 0.1270 mm; actual 0.0664 mm)
+    Local override; error
+    @(115.5000 mm, 49.4500 mm): Track [/B+] on Front, length 1.4142 mm
+    @(115.6075 mm, 50.8500 mm): Pad 2 [/VBAT] of C70 on Front
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2202 mm)
+    Rule: board setup constraints hole; error
+    @(96.5625 mm, 59.4740 mm): NPTH pad of MK1
+    @(96.5470 mm, 60.1440 mm): Via [GND] on Front - Back
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2202 mm)
+    Rule: board setup constraints hole; error
+    @(96.5625 mm, 59.4740 mm): NPTH pad of MK1
+    @(96.5470 mm, 60.1440 mm): Via [GND] on Front - Back
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2202 mm)
+    Rule: board setup constraints hole; error
+    @(96.5625 mm, 59.4740 mm): NPTH pad of MK1
+    @(96.5470 mm, 60.1440 mm): Via [GND] on Front - Back
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2202 mm)
+    Rule: board setup constraints hole; error
+    @(96.5625 mm, 59.4740 mm): NPTH pad of MK1
+    @(96.5470 mm, 60.1440 mm): Via [GND] on Front - Back
+[clearance]: Clearance violation ( clearance 0.1270 mm; actual 0.0000 mm)
+    Local override; error
+    @(37.1846 mm, 112.1410 mm): Pad 1 [<no net>] of REF** on Front
+    @(37.2039 mm, 112.2101 mm): Pad 1 [<no net>] of REF** on Front
+[clearance]: Clearance violation ( clearance 0.1270 mm; actual 0.0000 mm)
+    Local override; error
+    @(37.1846 mm, 112.1410 mm): Pad 1 [<no net>] of REF** on Front
+    @(40.2539 mm, 112.2101 mm): Pad 1 [<no net>] of REF** on Front
+[clearance]: Clearance violation ( clearance 0.1270 mm; actual 0.0000 mm)
+    Local override; error
+    @(38.7096 mm, 110.6160 mm): Pad 1 [<no net>] of REF** on Front
+    @(38.7289 mm, 110.6851 mm): Pad 1 [<no net>] of REF** on Front
+[clearance]: Clearance violation ( clearance 0.1270 mm; actual 0.0000 mm)
+    Local override; error
+    @(38.7096 mm, 110.6160 mm): Pad 1 [<no net>] of REF** on Front
+    @(40.2539 mm, 112.2101 mm): Pad 1 [<no net>] of REF** on Front
+[clearance]: Clearance violation ( clearance 0.1270 mm; actual 0.0000 mm)
+    Local override; error
+    @(38.7096 mm, 113.6660 mm): Pad 1 [<no net>] of REF** on Front
+    @(38.7289 mm, 113.7351 mm): Pad 1 [<no net>] of REF** on Front
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1851 mm)
+    Rule: board setup constraints hole; error
+    @(38.7096 mm, 113.6660 mm): Pad 1 [<no net>] of REF** on Front
+    @(38.7289 mm, 112.2101 mm): NPTH pad of REF**
+[clearance]: Clearance violation ( clearance 0.1270 mm; actual 0.0000 mm)
+    Local override; error
+    @(38.7096 mm, 113.6660 mm): Pad 1 [<no net>] of REF** on Front
+    @(40.2539 mm, 112.2101 mm): Pad 1 [<no net>] of REF** on Front
+[clearance]: Clearance violation ( clearance 0.1270 mm; actual 0.0000 mm)
+    Local override; error
+    @(40.2346 mm, 112.1410 mm): Pad 1 [<no net>] of REF** on Front
+    @(37.2039 mm, 112.2101 mm): Pad 1 [<no net>] of REF** on Front
+[clearance]: Clearance violation ( clearance 0.1270 mm; actual 0.0000 mm)
+    Local override; error
+    @(40.2346 mm, 112.1410 mm): Pad 1 [<no net>] of REF** on Front
+    @(38.7289 mm, 110.6851 mm): Pad 1 [<no net>] of REF** on Front
+[clearance]: Clearance violation ( clearance 0.1270 mm; actual 0.0000 mm)
+    Local override; error
+    @(40.2346 mm, 112.1410 mm): Pad 1 [<no net>] of REF** on Front
+    @(38.7289 mm, 113.7351 mm): Pad 1 [<no net>] of REF** on Front
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(40.2346 mm, 112.1410 mm): Pad 1 [<no net>] of REF** on Front
+    @(38.7289 mm, 112.2101 mm): NPTH pad of REF**
+[clearance]: Clearance violation ( clearance 0.1270 mm; actual 0.0000 mm)
+    Local override; error
+    @(40.2346 mm, 112.1410 mm): Pad 1 [<no net>] of REF** on Front
+    @(40.2539 mm, 112.2101 mm): Pad 1 [<no net>] of REF** on Front
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2202 mm)
+    Rule: board setup constraints hole; error
+    @(96.5625 mm, 59.4740 mm): NPTH pad of MK1
+    @(96.5470 mm, 60.1440 mm): Via [GND] on Front - Back
+[shorting_items]: Items shorting two nets (nets Net-(U16-VIN) and )
+    Local override; error
+    @(95.2015 mm, 105.2390 mm): Pad 2 [Net-(U16-VIN)] of U16 on Front
+    @(94.9348 mm, 104.5405 mm): Polygon [<no net>] of U16 on Front
+[shorting_items]: Items shorting two nets (nets /CV3V3 and )
+    Local override; error
+    @(51.5985 mm, 80.1000 mm): Pad 2 [/CV3V3] of U17 on Front
+    @(51.8652 mm, 80.7985 mm): Polygon [<no net>] of U17 on Front
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(103.4000 mm, 52.4000 mm): Footprint J2
+    @(81.0768 mm, 40.1828 mm): Footprint BT1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(100.1500 mm, 52.4000 mm): Footprint J1
+    @(81.0768 mm, 40.1828 mm): Footprint BT1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(38.7289 mm, 112.2101 mm): Footprint REF**
+    @(38.7096 mm, 112.1410 mm): Footprint REF**
+[npth_inside_courtyard]: NPTH inside courtyard
+    Local override; error
+    @(38.7096 mm, 112.1410 mm): NPTH pad of REF**
+    @(38.7289 mm, 112.2101 mm): Footprint REF**
+[npth_inside_courtyard]: NPTH inside courtyard
+    Local override; error
+    @(38.7289 mm, 112.2101 mm): NPTH pad of REF**
+    @(38.7096 mm, 112.1410 mm): Footprint REF**
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2855 mm)
+    Rule: board setup constraints edge; error
+    @(36.3137 mm, 25.5122 mm): Rectangle on Edge.Cuts
+    @(125.5532 mm, 27.9390 mm): Pad 1 [<no net>] of REF** on Front
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3387 mm)
+    Rule: board setup constraints edge; error
+    @(36.3137 mm, 25.5122 mm): Rectangle on Edge.Cuts
+    @(125.5000 mm, 113.2000 mm): Pad 1 [<no net>] of REF** on Front
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2863 mm)
+    Rule: board setup constraints edge; error
+    @(36.3137 mm, 25.5122 mm): Rectangle on Edge.Cuts
+    @(37.2000 mm, 55.6500 mm): Pad 5 [Net-(DZ2-K)] of SW3 on Back
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2863 mm)
+    Rule: board setup constraints edge; error
+    @(36.3137 mm, 25.5122 mm): Rectangle on Edge.Cuts
+    @(37.2000 mm, 54.6500 mm): Pad 6 [Net-(DZ2-K)] of SW3 on Back
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2863 mm)
+    Rule: board setup constraints edge; error
+    @(36.3137 mm, 25.5122 mm): Rectangle on Edge.Cuts
+    @(37.2000 mm, 53.6500 mm): Pad 7 [Net-(DZ2-K)] of SW3 on Back
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2863 mm)
+    Rule: board setup constraints edge; error
+    @(36.3137 mm, 25.5122 mm): Rectangle on Edge.Cuts
+    @(37.2000 mm, 52.6500 mm): Pad 8 [Net-(DZ2-K)] of SW3 on Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(83.5000 mm, 99.3625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(79.6864 mm, 32.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(43.7500 mm, 47.1000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(51.3000 mm, 97.4000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(40.7688 mm, 31.9268 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(76.1000 mm, 94.6625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(113.6943 mm, 38.2509 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(54.5000 mm, 71.7000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(97.4000 mm, 58.2220 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(100.9000 mm, 69.1625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(82.3450 mm, 61.9762 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(111.6500 mm, 38.2000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(109.6030 mm, 35.3000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(56.8750 mm, 54.4900 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(62.6000 mm, 49.0500 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(95.3375 mm, 110.4000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(106.7375 mm, 58.5900 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(86.4625 mm, 79.6000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(69.6864 mm, 52.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(110.9000 mm, 53.0000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(46.5709 mm, 65.0024 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(86.3250 mm, 75.6576 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(91.9000 mm, 94.8000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(90.6864 mm, 56.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(87.6000 mm, 89.8000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(46.5709 mm, 61.9924 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(89.2864 mm, 44.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(97.4000 mm, 57.4000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(77.8864 mm, 36.4182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(91.7151 mm, 71.5000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(69.6864 mm, 37.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(79.3340 mm, 83.0790 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(47.9000 mm, 73.4000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(73.6864 mm, 56.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(78.6300 mm, 107.4200 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(93.6864 mm, 42.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(79.4000 mm, 99.3625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(93.1500 mm, 89.7000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(53.5000 mm, 97.4000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(85.4864 mm, 36.4182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(83.9216 mm, 27.4066 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(64.7000 mm, 86.4375 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(93.7030 mm, 105.2390 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(52.0590 mm, 48.8816 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(90.0600 mm, 87.3200 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(44.8000 mm, 97.3000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(48.6375 mm, 55.3900 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(103.5676 mm, 76.2299 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(59.1625 mm, 74.1000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(106.3000 mm, 35.1625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(102.9625 mm, 88.0000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(53.0970 mm, 80.1000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(50.5000 mm, 77.4375 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(101.7000 mm, 58.1900 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(102.0000 mm, 48.9000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(102.0000 mm, 46.7000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(87.8125 mm, 75.9076 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(44.5375 mm, 105.5000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(82.2300 mm, 94.8625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(103.4000 mm, 106.5375 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(84.2000 mm, 94.3625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(74.0864 mm, 40.2182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(60.5000 mm, 92.1500 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(121.1000 mm, 63.2500 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(57.0375 mm, 64.0000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(98.1409 mm, 92.9224 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(47.0000 mm, 97.3000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(98.3250 mm, 31.9000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(103.9625 mm, 49.6000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(48.0000 mm, 52.1000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(81.6864 mm, 51.6182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(87.6864 mm, 32.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(72.9000 mm, 66.8500 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(105.4205 mm, 110.2439 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(119.1705 mm, 110.2439 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(58.7552 mm, 49.0246 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(84.1300 mm, 107.4200 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(38.6158 mm, 44.1832 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(119.1705 mm, 101.9439 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(113.7250 mm, 42.4000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(43.4000 mm, 34.8000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(106.7375 mm, 61.4000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(120.0500 mm, 83.9900 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(89.2864 mm, 47.8282 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(84.6864 mm, 56.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(83.2150 mm, 94.1125 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(77.6864 mm, 32.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(50.5000 mm, 77.4375 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(76.6864 mm, 32.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(77.8864 mm, 51.6182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(37.8188 mm, 31.9268 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(48.6375 mm, 58.4000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(61.3050 mm, 78.6000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(61.0850 mm, 56.9500 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(58.9000 mm, 94.6000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(109.8000 mm, 64.3000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(81.6864 mm, 47.8182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(47.3000 mm, 86.7250 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(56.8750 mm, 57.5000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(95.7250 mm, 58.2220 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(54.7000 mm, 92.2000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(106.8375 mm, 64.0000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(49.2000 mm, 97.3000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(83.3419 mm, 103.1291 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(54.5500 mm, 70.0000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(83.6864 mm, 32.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(80.9716 mm, 27.4066 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(48.7000 mm, 67.2625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(87.7531 mm, 26.9494 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(50.8000 mm, 54.3000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(109.4625 mm, 40.5000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(113.6943 mm, 40.3000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(105.4205 mm, 101.9439 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(78.1000 mm, 94.6625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(57.1000 mm, 76.0375 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(84.5500 mm, 86.5000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(70.8500 mm, 84.2500 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(119.9000 mm, 57.2700 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(89.9000 mm, 94.7625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(54.0000 mm, 37.8500 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(93.6864 mm, 41.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(96.4625 mm, 42.4000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(74.0864 mm, 44.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(85.6000 mm, 103.1625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(96.5000 mm, 76.0000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(98.2625 mm, 99.4000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(61.3000 mm, 80.7000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(89.2864 mm, 40.2182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(89.2864 mm, 51.6182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(67.1000 mm, 63.7375 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(51.2675 mm, 93.3125 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(81.6864 mm, 36.4182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(70.6864 mm, 56.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(61.3050 mm, 76.5150 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(124.8410 mm, 32.6888 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(74.0864 mm, 36.4182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(82.2300 mm, 93.3625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(77.8864 mm, 44.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(114.3375 mm, 66.4500 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(84.3000 mm, 97.2500 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(104.3000 mm, 35.2000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(51.2675 mm, 90.9625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(93.6864 mm, 48.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(99.8375 mm, 108.2500 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(51.5000 mm, 88.7875 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(74.0864 mm, 47.8182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(46.3625 mm, 79.2000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(47.9000 mm, 73.4000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(56.8000 mm, 82.8375 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(101.6375 mm, 60.3000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(103.8625 mm, 47.1000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(48.6375 mm, 55.3900 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(56.2000 mm, 61.4000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(78.6864 mm, 32.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(81.5000 mm, 99.3625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(59.1125 mm, 69.9850 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(84.6375 mm, 70.2000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(45.2625 mm, 90.9625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(48.5375 mm, 105.5000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(38.6158 mm, 46.3296 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9500 mm, 60.3500 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(70.9625 mm, 78.5000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(74.8753 mm, 27.2796 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(45.2625 mm, 93.1625 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(105.7940 mm, 91.9986 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(121.8910 mm, 32.6888 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(99.2000 mm, 97.2000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(85.5000 mm, 99.4000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(80.2876 mm, 61.9762 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(92.6864 mm, 56.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(56.7118 mm, 49.4056 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(79.5827 mm, 103.1291 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(50.8000 mm, 65.3000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(85.4864 mm, 51.6182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(80.6864 mm, 32.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(85.4864 mm, 44.0182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(63.3000 mm, 34.6000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(56.8750 mm, 57.5000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(64.9625 mm, 59.1000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(110.0005 mm, 104.5439 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(62.2000 mm, 43.9000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(48.5000 mm, 42.2000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(90.6000 mm, 61.9000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(113.5325 mm, 50.8500 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(81.6864 mm, 40.2182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(89.2864 mm, 36.4182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(68.0625 mm, 88.8000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(113.5500 mm, 90.5500 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(96.5470 mm, 60.1440 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(109.6030 mm, 35.3000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Default'; error
+    @(81.8625 mm, 89.2000 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(74.0864 mm, 51.6182 mm): Via [GND] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; error
+    @(90.5500 mm, 84.3500 mm): Via [/GPIO8] on Front - Back
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; error
+    @(90.0600 mm, 86.6000 mm): Via [/GPIO34] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(83.5000 mm, 99.3625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(79.6864 mm, 32.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(43.7500 mm, 47.1000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(51.3000 mm, 97.4000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(40.7688 mm, 31.9268 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(76.1000 mm, 94.6625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(113.6943 mm, 38.2509 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(54.5000 mm, 71.7000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(97.4000 mm, 58.2220 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(100.9000 mm, 69.1625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(82.3450 mm, 61.9762 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(111.6500 mm, 38.2000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(109.6030 mm, 35.3000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(56.8750 mm, 54.4900 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(62.6000 mm, 49.0500 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(95.3375 mm, 110.4000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(106.7375 mm, 58.5900 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(86.4625 mm, 79.6000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(69.6864 mm, 52.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(110.9000 mm, 53.0000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(46.5709 mm, 65.0024 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(86.3250 mm, 75.6576 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(91.9000 mm, 94.8000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(90.6864 mm, 56.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(87.6000 mm, 89.8000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(46.5709 mm, 61.9924 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(89.2864 mm, 44.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(97.4000 mm, 57.4000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(77.8864 mm, 36.4182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(91.7151 mm, 71.5000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(69.6864 mm, 37.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(79.3340 mm, 83.0790 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(47.9000 mm, 73.4000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(73.6864 mm, 56.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(78.6300 mm, 107.4200 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(93.6864 mm, 42.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(79.4000 mm, 99.3625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(93.1500 mm, 89.7000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(53.5000 mm, 97.4000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(85.4864 mm, 36.4182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(83.9216 mm, 27.4066 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(64.7000 mm, 86.4375 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(93.7030 mm, 105.2390 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(52.0590 mm, 48.8816 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(90.0600 mm, 87.3200 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(44.8000 mm, 97.3000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(48.6375 mm, 55.3900 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(103.5676 mm, 76.2299 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(59.1625 mm, 74.1000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(106.3000 mm, 35.1625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(102.9625 mm, 88.0000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(53.0970 mm, 80.1000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(50.5000 mm, 77.4375 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(101.7000 mm, 58.1900 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(102.0000 mm, 48.9000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(102.0000 mm, 46.7000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(87.8125 mm, 75.9076 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(44.5375 mm, 105.5000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(82.2300 mm, 94.8625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(103.4000 mm, 106.5375 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(84.2000 mm, 94.3625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(74.0864 mm, 40.2182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(60.5000 mm, 92.1500 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(121.1000 mm, 63.2500 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(57.0375 mm, 64.0000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(98.1409 mm, 92.9224 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(47.0000 mm, 97.3000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(98.3250 mm, 31.9000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(103.9625 mm, 49.6000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(48.0000 mm, 52.1000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(81.6864 mm, 51.6182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(87.6864 mm, 32.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(72.9000 mm, 66.8500 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(105.4205 mm, 110.2439 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(119.1705 mm, 110.2439 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(58.7552 mm, 49.0246 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(84.1300 mm, 107.4200 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(38.6158 mm, 44.1832 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(119.1705 mm, 101.9439 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(113.7250 mm, 42.4000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(43.4000 mm, 34.8000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(106.7375 mm, 61.4000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(120.0500 mm, 83.9900 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(89.2864 mm, 47.8282 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(84.6864 mm, 56.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(83.2150 mm, 94.1125 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(77.6864 mm, 32.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(50.5000 mm, 77.4375 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(76.6864 mm, 32.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(77.8864 mm, 51.6182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(37.8188 mm, 31.9268 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(48.6375 mm, 58.4000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(61.3050 mm, 78.6000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(61.0850 mm, 56.9500 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(58.9000 mm, 94.6000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(109.8000 mm, 64.3000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(81.6864 mm, 47.8182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(47.3000 mm, 86.7250 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(56.8750 mm, 57.5000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(95.7250 mm, 58.2220 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(54.7000 mm, 92.2000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(106.8375 mm, 64.0000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(49.2000 mm, 97.3000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(83.3419 mm, 103.1291 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(54.5500 mm, 70.0000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(83.6864 mm, 32.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(80.9716 mm, 27.4066 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(48.7000 mm, 67.2625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(87.7531 mm, 26.9494 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(50.8000 mm, 54.3000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(109.4625 mm, 40.5000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(113.6943 mm, 40.3000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(105.4205 mm, 101.9439 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(78.1000 mm, 94.6625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(57.1000 mm, 76.0375 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(84.5500 mm, 86.5000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(70.8500 mm, 84.2500 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(119.9000 mm, 57.2700 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(89.9000 mm, 94.7625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(54.0000 mm, 37.8500 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(93.6864 mm, 41.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(96.4625 mm, 42.4000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(74.0864 mm, 44.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(85.6000 mm, 103.1625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(96.5000 mm, 76.0000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(98.2625 mm, 99.4000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(61.3000 mm, 80.7000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(89.2864 mm, 40.2182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(89.2864 mm, 51.6182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(67.1000 mm, 63.7375 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(51.2675 mm, 93.3125 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(81.6864 mm, 36.4182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(70.6864 mm, 56.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(61.3050 mm, 76.5150 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(124.8410 mm, 32.6888 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(74.0864 mm, 36.4182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(82.2300 mm, 93.3625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(77.8864 mm, 44.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(114.3375 mm, 66.4500 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(84.3000 mm, 97.2500 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(104.3000 mm, 35.2000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(51.2675 mm, 90.9625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(93.6864 mm, 48.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(99.8375 mm, 108.2500 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(51.5000 mm, 88.7875 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(74.0864 mm, 47.8182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(46.3625 mm, 79.2000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(47.9000 mm, 73.4000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(56.8000 mm, 82.8375 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(101.6375 mm, 60.3000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(103.8625 mm, 47.1000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(48.6375 mm, 55.3900 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(56.2000 mm, 61.4000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(78.6864 mm, 32.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(81.5000 mm, 99.3625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(59.1125 mm, 69.9850 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(84.6375 mm, 70.2000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(45.2625 mm, 90.9625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(48.5375 mm, 105.5000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(38.6158 mm, 46.3296 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(120.9500 mm, 60.3500 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(70.9625 mm, 78.5000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(74.8753 mm, 27.2796 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(45.2625 mm, 93.1625 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(105.7940 mm, 91.9986 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(121.8910 mm, 32.6888 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(99.2000 mm, 97.2000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(85.5000 mm, 99.4000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(80.2876 mm, 61.9762 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(92.6864 mm, 56.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(56.7118 mm, 49.4056 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(79.5827 mm, 103.1291 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(50.8000 mm, 65.3000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(85.4864 mm, 51.6182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(80.6864 mm, 32.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(85.4864 mm, 44.0182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(63.3000 mm, 34.6000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(56.8750 mm, 57.5000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(64.9625 mm, 59.1000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(110.0005 mm, 104.5439 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(62.2000 mm, 43.9000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(48.5000 mm, 42.2000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(90.6000 mm, 61.9000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(113.5325 mm, 50.8500 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(81.6864 mm, 40.2182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(89.2864 mm, 36.4182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(68.0625 mm, 88.8000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(113.5500 mm, 90.5500 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(96.5470 mm, 60.1440 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(109.6030 mm, 35.3000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(81.8625 mm, 89.2000 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(74.0864 mm, 51.6182 mm): Via [GND] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(90.5500 mm, 84.3500 mm): Via [/GPIO8] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.4000 mm)
+    Rule: netclass 'Default'; error
+    @(90.0600 mm, 86.6000 mm): Via [/GPIO34] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(81.9000 mm, 81.7000 mm): Via [/USB3 P] on Front - Back
+[via_diameter]: Via diameter (board setup constraints min diameter 0.6000 mm; actual 0.5000 mm)
+    Rule: netclass 'Default'; error
+    @(79.6000 mm, 85.5000 mm): Via [/USB3 P] on Front - Back
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(51.8652 mm, 80.7985 mm): Polygon [<no net>] of U17 on Front
+    @(51.5985 mm, 80.1000 mm): Pad 2 [/CV3V3] of U17 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(61.0850 mm, 53.0500 mm): Pad 1 [/VCC 1V8] of U12 on Front
+    @(61.0850 mm, 53.7000 mm): Pad 2 [/UART TXD] of U12 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(61.0850 mm, 53.7000 mm): Pad 2 [/UART TXD] of U12 on Front
+    @(61.0850 mm, 54.3500 mm): Pad 3 [/UART RXD] of U12 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(61.0850 mm, 54.3500 mm): Pad 3 [/UART RXD] of U12 on Front
+    @(61.0850 mm, 55.0000 mm): Pad 4 [/UART DTR] of U12 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(61.0850 mm, 55.0000 mm): Pad 4 [/UART DTR] of U12 on Front
+    @(61.0850 mm, 55.6500 mm): Pad 5 [/UART RI] of U12 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(61.0850 mm, 55.6500 mm): Pad 5 [/UART RI] of U12 on Front
+    @(61.0850 mm, 56.3000 mm): Pad 6 [<no net>] of U12 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(61.0850 mm, 56.3000 mm): Pad 6 [<no net>] of U12 on Front
+    @(61.0850 mm, 56.9500 mm): Pad 7 [GND] of U12 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(66.8250 mm, 56.9500 mm): Pad 8 [/VCC 1V8] of U12 on Front
+    @(66.8250 mm, 56.3000 mm): Pad 9 [<no net>] of U12 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(66.8250 mm, 56.3000 mm): Pad 9 [<no net>] of U12 on Front
+    @(66.8250 mm, 55.6500 mm): Pad 10 [/GPIO40] of U12 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(66.8250 mm, 55.6500 mm): Pad 10 [/GPIO40] of U12 on Front
+    @(66.8250 mm, 55.0000 mm): Pad 11 [/GPIO45] of U12 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(66.8250 mm, 55.0000 mm): Pad 11 [/GPIO45] of U12 on Front
+    @(66.8250 mm, 54.3500 mm): Pad 12 [/TXD1] of U12 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(66.8250 mm, 54.3500 mm): Pad 12 [/TXD1] of U12 on Front
+    @(66.8250 mm, 53.7000 mm): Pad 13 [/RXD1] of U12 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(66.8250 mm, 53.7000 mm): Pad 13 [/RXD1] of U12 on Front
+    @(66.8250 mm, 53.0500 mm): Pad 14 [/VCC3V3] of U12 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(116.1000 mm, 52.0000 mm): Pad 10 [Net-(Q2-G)] of U2 on Front
+    @(115.6075 mm, 50.8500 mm): Pad 2 [/VBAT] of C70 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(95.7250 mm, 57.4000 mm): Pad 1 [Net-(MK1-OUTPUT)] of MK1 on Front
+    @(95.7250 mm, 58.2220 mm): Pad 2 [GND] of MK1 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(94.9348 mm, 104.5405 mm): Polygon [<no net>] of U16 on Front
+    @(95.2015 mm, 105.2390 mm): Pad 2 [Net-(U16-VIN)] of U16 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(58.8815 mm, 92.8000 mm): Pad 1 [/USB P] of U11 on Front
+    @(58.8315 mm, 93.2000 mm): Pad 2 [/USB N] of U11 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(82.2300 mm, 93.3625 mm): Pad 1 [GND] of U10 on Front
+    @(82.2300 mm, 93.8625 mm): Pad 2 [/VBAT] of U10 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(82.2300 mm, 93.8625 mm): Pad 2 [/VBAT] of U10 on Front
+    @(83.2150 mm, 94.1125 mm): Pad 9 [GND] of U10 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(58.8815 mm, 92.8000 mm): Pad 1 [/USB P] of U11 on Front
+    @(59.4000 mm, 92.2315 mm): Pad 9 [/VCC3V3] of U11 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(82.2300 mm, 94.3625 mm): Pad 3 [/VBAT] of U10 on Front
+    @(82.2300 mm, 94.8625 mm): Pad 4 [GND] of U10 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(58.8815 mm, 92.8000 mm): Pad 1 [/USB P] of U11 on Front
+    @(59.0000 mm, 92.2315 mm): Pad 10 [/USB SET] of U11 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(82.2300 mm, 94.3625 mm): Pad 3 [/VBAT] of U10 on Front
+    @(83.2150 mm, 94.1125 mm): Pad 9 [GND] of U10 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(58.8315 mm, 93.2000 mm): Pad 2 [/USB N] of U11 on Front
+    @(59.0000 mm, 93.7685 mm): Pad 3 [GND] of U11 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(84.2000 mm, 94.8625 mm): Pad 5 [Net-(U10-~{ALERT})] of U10 on Front
+    @(84.2000 mm, 94.3625 mm): Pad 6 [GND] of U10 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(58.8315 mm, 93.2000 mm): Pad 2 [/USB N] of U11 on Front
+    @(59.4000 mm, 93.7685 mm): Pad 4 [/USB2 N] of U11 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(84.2000 mm, 94.8625 mm): Pad 5 [Net-(U10-~{ALERT})] of U10 on Front
+    @(83.2150 mm, 94.1125 mm): Pad 9 [GND] of U10 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(84.2000 mm, 94.3625 mm): Pad 6 [GND] of U10 on Front
+    @(84.2000 mm, 93.8625 mm): Pad 7 [/GPIO3] of U10 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(59.0000 mm, 93.7685 mm): Pad 3 [GND] of U11 on Front
+    @(59.4000 mm, 93.7685 mm): Pad 4 [/USB2 N] of U11 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(84.2000 mm, 93.8625 mm): Pad 7 [/GPIO3] of U10 on Front
+    @(84.2000 mm, 93.3625 mm): Pad 8 [/GPIO2] of U10 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(84.2000 mm, 93.8625 mm): Pad 7 [/GPIO3] of U10 on Front
+    @(83.2150 mm, 94.1125 mm): Pad 9 [GND] of U10 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(59.4000 mm, 93.7685 mm): Pad 4 [/USB2 N] of U11 on Front
+    @(59.8000 mm, 93.7685 mm): Pad 5 [/USB2 P] of U11 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(84.2000 mm, 93.3625 mm): Pad 8 [/GPIO2] of U10 on Front
+    @(83.2150 mm, 94.1125 mm): Pad 9 [GND] of U10 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(59.4000 mm, 93.7685 mm): Pad 4 [/USB2 N] of U11 on Front
+    @(59.9685 mm, 93.2000 mm): Pad 6 [/USB3 N] of U11 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(59.8000 mm, 93.7685 mm): Pad 5 [/USB2 P] of U11 on Front
+    @(59.9685 mm, 93.2000 mm): Pad 6 [/USB3 N] of U11 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(59.9685 mm, 93.2000 mm): Pad 6 [/USB3 N] of U11 on Front
+    @(59.9685 mm, 92.8000 mm): Pad 7 [/USB3 P] of U11 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(59.9685 mm, 92.8000 mm): Pad 7 [/USB3 P] of U11 on Front
+    @(59.8000 mm, 92.2315 mm): Pad 8 [GND] of U11 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(59.9685 mm, 92.8000 mm): Pad 7 [/USB3 P] of U11 on Front
+    @(59.4000 mm, 92.2315 mm): Pad 9 [/VCC3V3] of U11 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(59.8000 mm, 92.2315 mm): Pad 8 [GND] of U11 on Front
+    @(59.4000 mm, 92.2315 mm): Pad 9 [/VCC3V3] of U11 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(59.4000 mm, 92.2315 mm): Pad 9 [/VCC3V3] of U11 on Front
+    @(59.0000 mm, 92.2315 mm): Pad 10 [/USB SET] of U11 on Front
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(108.7500 mm, 83.1000 mm): Track [/SOLAR VCC] on Front, length 0.4000 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(104.2500 mm, 90.2500 mm): Via [/VBAT] on Front - Back
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(53.7000 mm, 57.5000 mm): Via [/VBAT] on Front - Back
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(101.9000 mm, 44.5000 mm): Track [Net-(C3-Pad1)] on Front, length 1.4849 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(88.0000 mm, 88.0000 mm): Via [/GPIO7] on Front - Back
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(93.1000 mm, 83.0000 mm): Via [/GPIO10] on Front - Back
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(81.9000 mm, 84.2000 mm): Via [/GPIO14] on Front - Back
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(116.1000 mm, 68.8000 mm): Via [/GPIO15] on Front - Back
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(39.8000 mm, 78.5000 mm): Via [/GPIO21] on Front - Back
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(53.0000 mm, 58.2000 mm): Via [/GPIO21] on Front - Back
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(72.7000 mm, 76.4000 mm): Via [/GPIO35] on Front - Back
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(80.5000 mm, 85.6000 mm): Via [/GPIO36] on Front - Back
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(74.5500 mm, 81.4500 mm): Via [/GPIO41] on Front - Back
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(86.8500 mm, 83.6500 mm): Via [/USB3 P] on Front - Back
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(109.6030 mm, 35.3000 mm): Via [GND] on Front - Back
+    @(109.6030 mm, 35.3000 mm): Via [GND] on Front - Back
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(47.9000 mm, 73.4000 mm): Via [GND] on Front - Back
+    @(47.9000 mm, 73.4000 mm): Via [GND] on Front - Back
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(48.6375 mm, 55.3900 mm): Via [GND] on Front - Back
+    @(48.6375 mm, 55.3900 mm): Via [GND] on Front - Back
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(50.5000 mm, 77.4375 mm): Via [GND] on Front - Back
+    @(50.5000 mm, 77.4375 mm): Via [GND] on Front - Back
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(56.8750 mm, 57.5000 mm): Via [GND] on Front - Back
+    @(56.8750 mm, 57.5000 mm): Via [GND] on Front - Back
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.2202 mm)
+    Rule: board setup constraints; warning
+    @(96.5625 mm, 59.4740 mm): NPTH pad of MK1
+    @(96.5470 mm, 60.1440 mm): Via [GND] on Front - Back
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.2202 mm)
+    Rule: board setup constraints; warning
+    @(96.5625 mm, 59.4740 mm): NPTH pad of MK1
+    @(96.5470 mm, 60.1440 mm): Via [GND] on Front - Back
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; warning
+    @(38.7096 mm, 112.1410 mm): NPTH pad of REF**
+    @(38.7289 mm, 112.2101 mm): NPTH pad of REF**
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7874 mm)
+    Rule: board setup constraints silk text height; warning
+    @(39.2938 mm, 31.9268 mm): Reference field of U4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3212 mm)
+    Rule: board setup constraints silk text height; warning
+    @(96.3276 mm, 56.4997 mm): Reference field of MK1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7874 mm)
+    Rule: board setup constraints silk text height; warning
+    @(123.3660 mm, 32.6888 mm): Reference field of U8
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7874 mm)
+    Rule: board setup constraints silk text height; warning
+    @(82.4466 mm, 27.4066 mm): Reference field of U9
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6400 mm)
+    Rule: board setup constraints silk text height; warning
+    @(113.6920 mm, 50.8616 mm): Reference field of U2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6400 mm)
+    Rule: board setup constraints silk text height; warning
+    @(59.3590 mm, 91.1896 mm): Reference field of U11
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(109.5569 mm, 32.8489 mm): Reference field of ETA6098D3K
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(95.2015 mm, 103.2451 mm): Reference field of U16
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(90.0600 mm, 85.7700 mm): Reference field of U15
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(54.0254 mm, 36.8238 mm): Reference field of D4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(51.5985 mm, 82.0939 mm): Reference field of U17
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(113.6920 mm, 50.8616 mm): Reference field of U2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(111.5500 mm, 51.5500 mm): Segment of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(111.5500 mm, 56.4500 mm): Segment of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(115.4500 mm, 51.5500 mm): Segment of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(56.0000 mm, 70.9000 mm): Reference field of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.5700 mm, 49.1700 mm): Reference field of C70
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.5000 mm, 107.3000 mm): Reference field of L8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(76.8000 mm, 108.7000 mm): Segment of J6 on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(85.9600 mm, 108.7000 mm): Segment of J6 on B.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(114.3087 mm, 51.5850 mm): Segment of C70 on F.Silkscreen
+    @(111.5500 mm, 51.5500 mm): Segment of U2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(114.7271 mm, 49.5350 mm): Segment of R15 on F.Silkscreen
+    @(114.5700 mm, 49.1700 mm): Reference field of C70
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(94.3076 mm, 107.8270 mm): Segment of L8 on F.Silkscreen
+    @(94.5000 mm, 107.3000 mm): Reference field of L8
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(94.5000 mm, 107.3000 mm): Reference field of L8
+    @(94.6924 mm, 106.7730 mm): Segment of L8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(100.7100 mm, 79.4600 mm): Segment of Y2 on F.Silkscreen
+    @(100.9276 mm, 74.9799 mm): Polygon of U6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(100.7100 mm, 74.8400 mm): Segment of Y2 on F.Silkscreen
+    @(100.9276 mm, 74.9799 mm): Polygon of U6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(71.6000 mm, 114.4200 mm): Polygon of J3 on B.Silkscreen
+    @(63.2000 mm, 98.9000 mm): Rectangle on B.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
